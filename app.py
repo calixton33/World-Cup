@@ -1328,6 +1328,30 @@ def inject_css() -> None:
           color: var(--text) !important;
         }
 
+        .hero-actions a.hero-cta,
+        .hero-actions a.hero-cta:visited {
+          min-width: 180px !important;
+          color: #ffffff !important;
+          -webkit-text-fill-color: #ffffff !important;
+          font-size: 1rem !important;
+          font-weight: 800 !important;
+          opacity: 1 !important;
+        }
+
+        .hero-actions a.hero-secondary,
+        .hero-actions a.hero-secondary:visited {
+          background: var(--surface) !important;
+          color: var(--text) !important;
+          -webkit-text-fill-color: var(--text) !important;
+          border-color: var(--border) !important;
+        }
+
+        .hero-actions a.hero-secondary:hover {
+          background: var(--surface-muted) !important;
+          color: var(--text) !important;
+          -webkit-text-fill-color: var(--text) !important;
+        }
+
         .mockup-card,
         .card,
         .metric-card,
