@@ -4,7 +4,7 @@ This file explains the project in beginner-friendly language.
 
 ## 1. Project Idea
 
-This project uses FIFA World Cup player performance data to build two machine learning tools.
+This project uses FIFA World Cup player performance data from Kaggle to build two machine learning tools.
 
 The first tool is supervised learning. It predicts a match result from the point of view of Team A:
 
