@@ -119,6 +119,18 @@ After downloading the Kaggle CSV and running `main.py`, start the app:
 streamlit run app.py
 ```
 
+## Deployment
+
+This is a Streamlit application, so it is not designed to deploy directly on Vercel's Python serverless runtime. Vercel expects a Python file to export a web callable named `app`, `application`, or `handler`, while Streamlit apps are launched with `streamlit run app.py`.
+
+Recommended deployment options:
+
+- Streamlit Community Cloud
+- Hugging Face Spaces with the Streamlit SDK
+- Render or Railway using `streamlit run app.py`
+
+Because the Kaggle dataset and generated model artifacts are intentionally not committed to this public repository, a hosted deployment will also need a permitted way to provide the dataset and regenerate the local artifacts. For a public demo, confirm the Kaggle dataset license before uploading the data or generated model files.
+
 The redesigned app supports:
 
 - Selecting two teams
