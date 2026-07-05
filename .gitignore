@@ -1,0 +1,40 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+.venv/
+.matplotlib/
+
+tmp/
+
+# Kaggle/raw data and generated ML artifacts
+data/*.csv
+models/*.pkl
+models/*.joblib
+outputs/
+output/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+kaggle.json
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+outputs/streamlit.log
+outputs/streamlit.pid
+outputs/streamlit.url
+*.log
+*.pid
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
