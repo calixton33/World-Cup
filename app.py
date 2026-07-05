@@ -1196,6 +1196,594 @@ def inject_css() -> None:
         """,
         unsafe_allow_html=True,
     )
+    st.markdown(
+        """
+        <style>
+        :root {
+          --bg: #f8fafc;
+          --surface: #ffffff;
+          --surface-muted: #f1f5f9;
+          --border: #e2e8f0;
+          --text: #0f172a;
+          --muted-text: #64748b;
+          --primary: #2563eb;
+          --primary-soft: #dbeafe;
+          --success: #16a34a;
+          --success-soft: #dcfce7;
+          --warning: #f59e0b;
+          --warning-soft: #fef3c7;
+          --danger: #dc2626;
+          --danger-soft: #fee2e2;
+          --shadow-soft: 0 1px 2px rgba(15, 23, 42, 0.05);
+        }
+
+        html, body, [data-testid="stAppViewContainer"] {
+          background: var(--bg) !important;
+          color: var(--text) !important;
+        }
+
+        [data-testid="stHeader"] {
+          background: rgba(248, 250, 252, 0.88) !important;
+          backdrop-filter: blur(14px);
+        }
+
+        [data-testid="stMainBlockContainer"] {
+          max-width: 1180px !important;
+          padding-top: 1rem !important;
+          padding-bottom: 4rem !important;
+        }
+
+        h1, h2, h3, p, label, span, div {
+          font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+          letter-spacing: 0 !important;
+        }
+
+        .data-disclaimer {
+          display: flex;
+          gap: 12px;
+          align-items: flex-start;
+          margin: 0 0 18px;
+          padding: 12px 14px;
+          border: 1px solid var(--border);
+          border-radius: 12px;
+          background: #fff7ed;
+          color: #7c2d12;
+          box-shadow: var(--shadow-soft);
+        }
+
+        .data-disclaimer span {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 22px;
+          height: 22px;
+          border-radius: 999px;
+          background: #fed7aa;
+          color: #9a3412;
+          font-weight: 800;
+          flex: 0 0 auto;
+        }
+
+        .hero {
+          border: 1px solid var(--border) !important;
+          border-radius: 20px !important;
+          padding: 30px !important;
+          background:
+            linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(22, 163, 74, 0.06)),
+            var(--surface) !important;
+          box-shadow: var(--shadow-soft) !important;
+          color: var(--text) !important;
+          margin-bottom: 18px;
+        }
+
+        .hero:after,
+        .gradual-blur,
+        .electric-border:before,
+        .electric-border:after {
+          display: none !important;
+        }
+
+        .hero-title {
+          color: var(--text) !important;
+          font-size: clamp(2.25rem, 5vw, 4.25rem) !important;
+          line-height: 0.98 !important;
+          text-transform: none !important;
+          max-width: 720px !important;
+        }
+
+        .hero-copy,
+        .section-copy {
+          color: var(--muted-text) !important;
+          line-height: 1.65 !important;
+        }
+
+        .eyebrow,
+        .card-kicker,
+        .metric-label {
+          color: var(--muted-text) !important;
+          font-size: 0.76rem !important;
+          font-weight: 700 !important;
+          letter-spacing: 0.04em !important;
+          text-transform: uppercase !important;
+        }
+
+        .hero-cta,
+        .hero-secondary {
+          display: inline-flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          border-radius: 999px !important;
+          border: 1px solid var(--border) !important;
+          box-shadow: none !important;
+          text-decoration: none !important;
+        }
+
+        .hero-cta {
+          background: var(--primary) !important;
+          color: #ffffff !important;
+        }
+
+        .hero-secondary {
+          background: var(--surface) !important;
+          color: var(--text) !important;
+        }
+
+        .mockup-card,
+        .card,
+        .metric-card,
+        .cluster-card,
+        .bracket-card,
+        .lineup-card,
+        .predictor-card,
+        .team-summary-card,
+        .lineup-builder-card,
+        .result-card,
+        .factor-card {
+          border: 1px solid var(--border) !important;
+          border-radius: 16px !important;
+          background: var(--surface) !important;
+          color: var(--text) !important;
+          box-shadow: var(--shadow-soft) !important;
+        }
+
+        .section-title {
+          color: var(--text) !important;
+          font-size: clamp(1.5rem, 3vw, 2rem) !important;
+          line-height: 1.15 !important;
+          margin: 28px 0 8px !important;
+          text-transform: none !important;
+        }
+
+        .predictor-shell {
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        }
+
+        .predictor-header {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 18px;
+          padding: 24px;
+          border: 1px solid var(--border);
+          border-radius: 18px;
+          background: var(--surface);
+          box-shadow: var(--shadow-soft);
+        }
+
+        .predictor-title {
+          margin: 6px 0 6px;
+          color: var(--text);
+          font-size: clamp(2rem, 5vw, 3.25rem);
+          font-weight: 800;
+          line-height: 1.02;
+        }
+
+        .predictor-subtitle {
+          margin: 0;
+          max-width: 680px;
+          color: var(--muted-text);
+          font-size: 1rem;
+          line-height: 1.6;
+        }
+
+        .predictor-header-stat {
+          min-width: 132px;
+          padding: 12px;
+          border: 1px solid var(--border);
+          border-radius: 14px;
+          background: var(--surface-muted);
+        }
+
+        .predictor-header-stat strong {
+          display: block;
+          color: var(--text);
+          font-size: 1.35rem;
+          line-height: 1;
+        }
+
+        .predictor-header-stat span {
+          display: block;
+          margin-top: 6px;
+          color: var(--muted-text);
+          font-size: 0.78rem;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+
+        .badge {
+          display: inline-flex;
+          align-items: center;
+          width: fit-content;
+          border-radius: 999px;
+          padding: 5px 10px;
+          background: var(--primary-soft);
+          color: #1d4ed8;
+          font-size: 0.78rem;
+          font-weight: 700;
+        }
+
+        .match-setup-grid {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+          align-items: stretch;
+          gap: 14px;
+        }
+
+        .selector-card,
+        .predictor-card,
+        .lineup-builder-card,
+        .team-summary-card {
+          padding: 18px;
+        }
+
+        .selector-label {
+          color: var(--muted-text);
+          font-size: 0.82rem;
+          font-weight: 700;
+          margin-bottom: 8px;
+          text-transform: uppercase;
+        }
+
+        .setup-title {
+          margin: 0 0 4px;
+          color: var(--text);
+          font-size: 1.05rem;
+          font-weight: 800;
+        }
+
+        .vs-badge,
+        .vs-node {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 48px;
+          height: 48px;
+          align-self: center;
+          border-radius: 999px;
+          border: 1px solid var(--border);
+          background: var(--surface);
+          color: var(--primary);
+          font-weight: 800;
+          box-shadow: var(--shadow-soft);
+        }
+
+        .summary-grid,
+        .lineup-grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 14px;
+        }
+
+        .team-summary-top {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 12px;
+          margin-bottom: 14px;
+        }
+
+        .team-name {
+          color: var(--text) !important;
+          font-size: 1.35rem !important;
+          font-weight: 800 !important;
+          line-height: 1.1 !important;
+        }
+
+        .summary-metrics {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 10px;
+        }
+
+        .mini-metric {
+          padding: 10px;
+          border-radius: 12px;
+          background: var(--surface-muted);
+        }
+
+        .mini-metric-value {
+          color: var(--text);
+          font-size: 1.15rem;
+          font-weight: 800;
+          line-height: 1.1;
+        }
+
+        .mini-metric-label {
+          margin-top: 4px;
+          color: var(--muted-text);
+          font-size: 0.78rem;
+          font-weight: 600;
+        }
+
+        .status-pill,
+        .pill,
+        .player-chip {
+          display: inline-flex;
+          align-items: center;
+          max-width: 100%;
+          border: 1px solid var(--border) !important;
+          border-radius: 999px !important;
+          background: var(--surface-muted) !important;
+          color: var(--text) !important;
+          padding: 6px 10px !important;
+          font-size: 0.84rem !important;
+          font-weight: 650 !important;
+          line-height: 1.2 !important;
+          box-shadow: none !important;
+        }
+
+        .status-ready {
+          border-color: #bbf7d0 !important;
+          background: var(--success-soft) !important;
+          color: #166534 !important;
+        }
+
+        .status-pending {
+          border-color: #fde68a !important;
+          background: var(--warning-soft) !important;
+          color: #92400e !important;
+        }
+
+        .lineup-role {
+          margin-top: 14px;
+        }
+
+        .lineup-builder-title {
+          margin: 0 0 12px;
+          color: var(--text);
+          font-size: 1.15rem;
+          font-weight: 800;
+          line-height: 1.2;
+        }
+
+        .role-heading {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+          margin-bottom: 8px;
+          color: var(--muted-text);
+          font-size: 0.82rem;
+          font-weight: 800;
+          text-transform: uppercase;
+        }
+
+        .player-chip-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+
+        .player-chip {
+          border-radius: 12px !important;
+          padding: 8px 10px !important;
+          background: #f8fafc !important;
+        }
+
+        .empty-lineup {
+          display: block;
+          padding: 12px;
+          border: 1px dashed var(--border);
+          border-radius: 12px;
+          color: var(--muted-text);
+          background: var(--surface-muted);
+          font-size: 0.9rem;
+        }
+
+        .player-number {
+          margin-right: 7px;
+          color: var(--primary);
+          font-weight: 800;
+        }
+
+        .player-position {
+          margin-left: 6px;
+          color: var(--muted-text);
+          font-size: 0.76rem;
+          font-weight: 700;
+        }
+
+        .match-status-card {
+          padding: 14px 18px;
+          border: 1px solid var(--border);
+          border-radius: 16px;
+          background: var(--surface);
+          box-shadow: var(--shadow-soft);
+        }
+
+        .match-stage {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+          align-items: center;
+          gap: 14px;
+          color: var(--text);
+        }
+
+        .match-side-right {
+          text-align: right;
+        }
+
+        .match-label,
+        .match-count,
+        .prob-label {
+          color: var(--muted-text);
+          font-size: 0.82rem;
+          font-weight: 700;
+        }
+
+        .match-team {
+          color: var(--text);
+          font-size: 1.2rem;
+          font-weight: 800;
+        }
+
+        .result-card {
+          padding: 22px;
+          border-color: #bfdbfe !important;
+          background: linear-gradient(180deg, #ffffff, #eff6ff) !important;
+        }
+
+        .result-top {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 16px;
+          margin-bottom: 18px;
+        }
+
+        .winner-label {
+          margin-top: 6px;
+          color: var(--text);
+          font-size: clamp(1.6rem, 4vw, 2.5rem);
+          font-weight: 850;
+          line-height: 1.05;
+        }
+
+        .result-meta-grid,
+        .prob-row {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 12px;
+        }
+
+        .prob-tile {
+          padding: 14px;
+          border: 1px solid var(--border);
+          border-radius: 14px;
+          background: var(--surface);
+        }
+
+        .prob-number {
+          color: var(--text) !important;
+          font-size: clamp(1.55rem, 4vw, 2.2rem) !important;
+          font-weight: 850 !important;
+          line-height: 1 !important;
+        }
+
+        .prob-track {
+          display: flex;
+          height: 10px;
+          overflow: hidden;
+          margin: 16px 0;
+          border-radius: 999px;
+          background: var(--surface-muted);
+        }
+
+        .meta-tile {
+          padding: 12px;
+          border-radius: 14px;
+          background: rgba(255, 255, 255, 0.72);
+          border: 1px solid var(--border);
+        }
+
+        .meta-value {
+          color: var(--text);
+          font-size: 1.15rem;
+          font-weight: 800;
+        }
+
+        .factor-grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 10px;
+          margin-top: 14px;
+        }
+
+        .factor-card {
+          padding: 12px;
+          background: var(--surface) !important;
+        }
+
+        .factor-title {
+          color: var(--text);
+          font-weight: 800;
+          font-size: 0.92rem;
+        }
+
+        .factor-copy {
+          margin-top: 4px;
+          color: var(--muted-text);
+          font-size: 0.82rem;
+          line-height: 1.35;
+        }
+
+        div[data-testid="stSelectbox"] label,
+        div[data-testid="stMultiSelect"] label {
+          color: var(--text) !important;
+          font-weight: 700 !important;
+        }
+
+        .stButton > button {
+          width: auto !important;
+          min-height: 44px !important;
+          border-radius: 999px !important;
+          padding: 0.65rem 1.2rem !important;
+          font-weight: 800 !important;
+          border: 1px solid var(--primary) !important;
+          background: var(--primary) !important;
+          color: #ffffff !important;
+        }
+
+        .stButton > button:disabled {
+          border-color: var(--border) !important;
+          background: var(--surface-muted) !important;
+          color: var(--muted-text) !important;
+        }
+
+        @media (max-width: 820px) {
+          .predictor-header,
+          .result-top {
+            flex-direction: column;
+          }
+
+          .match-setup-grid,
+          .summary-grid,
+          .lineup-grid,
+          .match-stage,
+          .prob-row,
+          .result-meta-grid,
+          .factor-grid {
+            grid-template-columns: 1fr;
+          }
+
+          .vs-node {
+            justify-self: center;
+          }
+
+          .match-side-right {
+            text-align: left;
+          }
+
+          .summary-metrics {
+            grid-template-columns: 1fr;
+          }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def fmt_number(value: float | int | None, decimals: int = 1) -> str:
@@ -1318,8 +1906,8 @@ def lineup_summary(players: pd.DataFrame, selected: list[str]) -> dict[str, floa
     return {
         "count": float(len(chosen)),
         "rating": float(chosen["player_rating"].mean()) if "player_rating" in chosen else np.nan,
-        "goals": float(chosen["goals"].sum()) if "goals" in chosen else np.nan,
-        "xg": float(chosen["expected_goals_xg"].sum()) if "expected_goals_xg" in chosen else np.nan,
+        "goals": float(chosen["goals"].mean()) if "goals" in chosen else np.nan,
+        "xg": float(chosen["expected_goals_xg"].mean()) if "expected_goals_xg" in chosen else np.nan,
     }
 
 
@@ -1356,6 +1944,90 @@ def lineup_table(team: str, selected_players: list[str], profiles: pd.DataFrame,
     return table
 
 
+ROLE_ORDER = ["Goalkeepers", "Defenders", "Midfielders", "Forwards", "Other"]
+
+
+def position_group(position: Any) -> str:
+    value = str(position or "").strip().lower()
+    if "goalkeeper" in value or value == "gk":
+        return "Goalkeepers"
+    if "defender" in value or value in {"cb", "lb", "rb", "lwb", "rwb"}:
+        return "Defenders"
+    if "midfielder" in value or value in {"cm", "dm", "am", "lm", "rm"}:
+        return "Midfielders"
+    if "forward" in value or value in {"st", "cf", "lw", "rw", "striker", "winger"}:
+        return "Forwards"
+    return "Other"
+
+
+def role_sort_key(role: str) -> int:
+    return ROLE_ORDER.index(role) if role in ROLE_ORDER else len(ROLE_ORDER)
+
+
+def status_class(count: int) -> str:
+    return "status-ready" if count == 11 else "status-pending"
+
+
+def confidence_label(probability: float) -> str:
+    if probability >= 0.65:
+        return "High"
+    if probability >= 0.5:
+        return "Medium"
+    return "Low"
+
+
+def expected_score_text(matchup_features: dict[str, float]) -> str:
+    a_xg = float(matchup_features.get("team_a_total_expected_goals_xg", 0.0))
+    b_xg = float(matchup_features.get("team_b_total_expected_goals_xg", 0.0))
+    a_goals_feature = float(matchup_features.get("team_a_total_goals", 0.0))
+    b_goals_feature = float(matchup_features.get("team_b_total_goals", 0.0))
+    if not np.isfinite(a_xg):
+        a_xg = 0.0
+    if not np.isfinite(b_xg):
+        b_xg = 0.0
+    if not np.isfinite(a_goals_feature):
+        a_goals_feature = 0.0
+    if not np.isfinite(b_goals_feature):
+        b_goals_feature = 0.0
+    a_goals = int(np.clip(round(max(a_xg, a_goals_feature)), 0, 5))
+    b_goals = int(np.clip(round(max(b_xg, b_goals_feature)), 0, 5))
+    return f"{a_goals} - {b_goals}"
+
+
+def prediction_factor_cards(team_a: str, team_b: str, matchup_features: dict[str, float]) -> str:
+    diff_rows = [
+        (key.replace("diff_", ""), value)
+        for key, value in matchup_features.items()
+        if key.startswith("diff_") and np.isfinite(value) and abs(value) > 0
+    ]
+    useful = sorted(diff_rows, key=lambda item: abs(item[1]), reverse=True)[:3]
+    if not useful:
+        return html_block(
+            """
+            <div class="factor-card">
+              <div class="factor-title">Balanced profiles</div>
+              <div class="factor-copy">The selected lineups are close across the model's comparison features.</div>
+            </div>
+            """
+        )
+
+    cards = []
+    for feature, value in useful:
+        leader = team_a if value > 0 else team_b
+        direction = "higher" if value > 0 else "lower"
+        cards.append(
+            html_block(
+                f"""
+                <div class="factor-card">
+                  <div class="factor-title">{escape(humanize_feature(feature))}</div>
+                  <div class="factor-copy">{escape(leader)} is {direction} by {fmt_number(abs(value), 2)} in this lineup comparison.</div>
+                </div>
+                """
+            )
+        )
+    return html_block("".join(cards))
+
+
 def render_hero(profiles: pd.DataFrame, clustered: pd.DataFrame, match_count: int) -> None:
     team_count = profiles["team"].nunique()
     player_count = profiles["player_name"].nunique()
@@ -1367,11 +2039,11 @@ def render_hero(profiles: pd.DataFrame, clustered: pd.DataFrame, match_count: in
         <div class="hero">
           <div class="hero-layout">
             <div>
-              <div class="eyebrow">Football intelligence platform</div>
-              <div class="hero-title">Lineup prediction for tournament analysis.</div>
+              <span class="badge">2026 Dataset</span>
+              <div class="hero-title">World Cup Match Predictor</div>
               <div class="hero-copy">
-                Compare selected elevens, inspect player profiles, and review player clusters
-                in a calmer analytics workspace built around model outputs rather than spectacle.
+                Compare two national teams, select an eleven for each side, and simulate a match outcome
+                with a clean machine learning dashboard.
               </div>
               <div class="hero-actions">
                 <a class="hero-cta" href="?view=Match%20Predictor#view-content">Start prediction</a>
@@ -1386,15 +2058,8 @@ def render_hero(profiles: pd.DataFrame, clustered: pd.DataFrame, match_count: in
                 <div class="mockup-row"><span>Matches</span><span class="mockup-value">{match_count:,}</span></div>
                 <div class="mockup-row"><span>Clusters</span><span class="mockup-value">{cluster_count}</span></div>
               </div>
-              <div class="mockup-card secondary model-output-card">
-                <div class="card-kicker">Model output</div>
-                <div class="mockup-row"><span>Outcome probabilities</span><span class="mockup-value">W / D / L</span></div>
-                <div class="mockup-row"><span>Lineup comparison</span><span class="mockup-value">63 signals</span></div>
-                <div class="mockup-row"><span>Player profiles</span><span class="mockup-value">5 clusters</span></div>
-              </div>
             </div>
           </div>
-          {gradual_blur("bottom", "hero-gradual-blur")}
         </div>
         """
         ),
@@ -1404,25 +2069,35 @@ def render_hero(profiles: pd.DataFrame, clustered: pd.DataFrame, match_count: in
 
 def render_team_panel(team: str, selected_players: list[str], pool: pd.DataFrame, color: str) -> None:
     summary = lineup_summary(pool, selected_players)
-    status = "Ready" if summary["count"] == 11 else "Needs 11"
+    count = int(summary["count"])
+    status = "Ready" if count == 11 else "Needs 11"
     st.markdown(
-        electric_border(
+        html_block(
             f"""
-        <div class="card">
+        <div class="team-summary-card" style="border-top: 4px solid {color} !important;">
           <div class="team-header">
             <div>
-              <div class="card-kicker">Selected side</div>
+              <div class="card-kicker">Team summary</div>
               <div class="team-name">{escape(team)}</div>
             </div>
-            <span class="pill">{int(summary["count"])} / 11 {status}</span>
+            <span class="status-pill {status_class(count)}">{count} / 11 {status}</span>
           </div>
-          <span class="pill">Avg rating {fmt_number(summary["rating"])}</span>
-          <span class="pill">Goals {fmt_number(summary["goals"], 1)}</span>
-          <span class="pill">xG {fmt_number(summary["xg"], 2)}</span>
+          <div class="summary-metrics">
+            <div class="mini-metric">
+              <div class="mini-metric-value">{fmt_number(summary["rating"])}</div>
+              <div class="mini-metric-label">Avg rating</div>
+            </div>
+            <div class="mini-metric">
+              <div class="mini-metric-value">{fmt_number(summary["goals"], 2)}</div>
+              <div class="mini-metric-label">Avg goals</div>
+            </div>
+            <div class="mini-metric">
+              <div class="mini-metric-value">{fmt_number(summary["xg"], 2)}</div>
+              <div class="mini-metric-label">Avg xG</div>
+            </div>
+          </div>
         </div>
-        """,
-            class_name="team-electric",
-            color=color,
+        """
         ),
         unsafe_allow_html=True,
     )
@@ -1430,42 +2105,65 @@ def render_team_panel(team: str, selected_players: list[str], pool: pd.DataFrame
 
 def render_lineup_pills(team: str, selected_players: list[str], profiles: pd.DataFrame, clustered: pd.DataFrame) -> None:
     table = lineup_table(team, selected_players, profiles, clustered)
-    pills = []
-    sort_cols = [col for col in ["position", "jersey_number", "player_name"] if col in table.columns]
-    view = table.sort_values(sort_cols) if sort_cols else table
-    for _, row in view.iterrows():
-        label = escape(str(row["player_name"]))
-        jersey = escape(jersey_label(row.get("jersey_number")))
-        position = escape(str(row.get("position", "")))
-        rating = fmt_number(row.get("player_rating"), 1)
-        cluster = escape(str(row.get("cluster_label", ""))) if "cluster_label" in row else ""
-        cluster_text = f" | {cluster}" if cluster and cluster != "nan" else ""
-        pills.append(f'<span class="pill">#{jersey} {label} - {position} - rating {rating}{cluster_text}</span>')
-    st.markdown("".join(pills) if pills else '<span class="pill">No players selected</span>', unsafe_allow_html=True)
+    if table.empty:
+        st.markdown('<span class="empty-lineup">No players selected</span>', unsafe_allow_html=True)
+        return
+
+    table = table.assign(role_group=table["position"].map(position_group))
+    role_sections = []
+    for role, group in sorted(table.groupby("role_group", sort=False), key=lambda item: role_sort_key(item[0])):
+        sort_cols = [col for col in ["jersey_number", "player_name"] if col in group.columns]
+        view = group.sort_values(sort_cols) if sort_cols else group
+        chips = []
+        for _, row in view.iterrows():
+            label = escape(str(row["player_name"]))
+            jersey = escape(jersey_label(row.get("jersey_number")))
+            position = escape(str(row.get("position", "")))
+            chips.append(
+                f"""
+                <span class="player-chip">
+                  <span class="player-number">#{jersey}</span>
+                  {label}
+                  <span class="player-position">{position}</span>
+                </span>
+                """
+            )
+        role_sections.append(
+            html_block(
+                f"""
+                <div class="lineup-role">
+                  <div class="role-heading"><span>{escape(role)}</span><span>{len(group)}</span></div>
+                  <div class="player-chip-grid">{''.join(chips)}</div>
+                </div>
+                """
+            )
+        )
+
+    st.markdown(html_block("".join(role_sections)), unsafe_allow_html=True)
 
 
 def render_match_status(team_a: str, team_b: str, team_a_count: int, team_b_count: int, ready: bool) -> None:
     status = "Ready to predict" if ready else "Lineups pending"
     st.markdown(
-        electric_border(
+        html_block(
             f"""
-        <div class="match-stage">
-          <div class="match-side">
-            <span class="match-label">Team A</span>
-            <div class="match-team">{escape(team_a)}</div>
-            <span class="match-count">{team_a_count}/11 selected</span>
+        <div class="match-status-card">
+          <div class="match-stage">
+            <div class="match-side">
+              <span class="match-label">Team A</span>
+              <div class="match-team">{escape(team_a)}</div>
+              <span class="match-count">{team_a_count}/11 selected</span>
+            </div>
+            <div class="vs-node">VS</div>
+            <div class="match-side match-side-right">
+              <span class="match-label">Team B</span>
+              <div class="match-team">{escape(team_b)}</div>
+              <span class="match-count">{team_b_count}/11 selected</span>
+            </div>
           </div>
-          <div class="match-versus">VS</div>
-          <div class="match-side match-side-right">
-            <span class="match-label">Team B</span>
-            <div class="match-team">{escape(team_b)}</div>
-            <span class="match-count">{team_b_count}/11 selected</span>
-          </div>
+          <div style="margin-top: 12px;"><span class="status-pill {status_class(11 if ready else 0)}">{status}</span></div>
         </div>
-        <span class="pill">{status}</span>
-        """,
-            class_name="match-stage-electric",
-            color="#7df9ff" if ready else "#0052ff",
+        """
         ),
         unsafe_allow_html=True,
     )
@@ -1477,29 +2175,47 @@ def build_probability_card(team_a: str, team_b: str, prediction: dict[str, Any])
     b = prediction["team_b_win_probability"]
     max_value = max(a, d, b)
     winner_label = team_a if max_value == a else "Draw" if max_value == d else team_b
+    confidence = confidence_label(max_value)
+    expected_score = expected_score_text(prediction["matchup_features"])
+    factors = prediction_factor_cards(team_a, team_b, prediction["matchup_features"])
 
-    return electric_border(
+    return html_block(
         f"""
-    <div class="prob-card">
-      <div class="eyebrow">Model prediction</div>
-      <div class="section-title" style="margin-top: 0.35rem;">{escape(team_a)} <span class="gold">VS</span> {escape(team_b)}</div>
+    <div class="result-card">
+      <div class="result-top">
+        <div>
+          <div class="eyebrow">Prediction result</div>
+          <div class="winner-label">{escape(winner_label)} has the model edge</div>
+        </div>
+        <span class="status-pill status-ready">{confidence} confidence</span>
+      </div>
+      <div class="result-meta-grid">
+        <div class="meta-tile">
+          <div class="metric-label">Expected score</div>
+          <div class="meta-value">{expected_score}</div>
+        </div>
+        <div class="meta-tile">
+          <div class="metric-label">Top outcome</div>
+          <div class="meta-value">{pct(max_value)}</div>
+        </div>
+        <div class="meta-tile">
+          <div class="metric-label">Teams</div>
+          <div class="meta-value">{escape(team_a)} vs {escape(team_b)}</div>
+        </div>
+      </div>
       <div class="prob-row">
-        <div><div class="prob-number" style="color: var(--primary);">{pct(a)}</div><div class="prob-label">{escape(team_a)} win</div></div>
-        <div><div class="prob-number" style="color: var(--muted);">{pct(d)}</div><div class="prob-label">Draw</div></div>
-        <div><div class="prob-number" style="color: var(--text);">{pct(b)}</div><div class="prob-label">{escape(team_b)} win</div></div>
+        <div class="prob-tile"><div class="prob-number">{pct(a)}</div><div class="prob-label">{escape(team_a)} win</div></div>
+        <div class="prob-tile"><div class="prob-number">{pct(d)}</div><div class="prob-label">Draw</div></div>
+        <div class="prob-tile"><div class="prob-number">{pct(b)}</div><div class="prob-label">{escape(team_b)} win</div></div>
       </div>
       <div class="prob-track">
         <div style="width: {a * 100:.2f}%; background: var(--primary);"></div>
-        <div style="width: {d * 100:.2f}%; background: var(--surface-strong);"></div>
+        <div style="width: {d * 100:.2f}%; background: var(--warning);"></div>
         <div style="width: {b * 100:.2f}%; background: var(--text);"></div>
       </div>
-      <p class="section-copy" style="margin-bottom: 0; margin-top: 14px;">
-        Highest estimated outcome: <span class="gold">{escape(winner_label)}</span>. These are probabilities, not guarantees.
-      </p>
+      <div class="factor-grid">{factors}</div>
     </div>
-    """,
-        class_name="prediction-electric",
-        color="#7df9ff",
+    """
     )
 
 
@@ -1551,21 +2267,39 @@ def explain_prediction(team_a: str, team_b: str, matchup_features: dict[str, flo
 
 
 def show_match_prediction(profiles: pd.DataFrame, clustered: pd.DataFrame, model, training_columns: list[str]) -> None:
-    st.markdown('<div class="section-title">Match Predictor</div>', unsafe_allow_html=True)
     st.markdown(
-        '<p class="section-copy">Choose two teams, lock in 11 players per side, then generate estimated outcome probabilities.</p>',
+        html_block(
+            """
+        <div class="predictor-header">
+          <div>
+            <span class="badge">2026 Dataset</span>
+            <div class="predictor-title">World Cup Match Predictor</div>
+            <p class="predictor-subtitle">Compare two national teams and simulate a match outcome.</p>
+          </div>
+          <div class="predictor-header-stat">
+            <strong>11v11</strong>
+            <span>Lineup model</span>
+          </div>
+        </div>
+        """
+        ),
         unsafe_allow_html=True,
     )
 
     teams = sorted(profiles["team"].dropna().unique())
-    select_a, vs_col, select_b = st.columns([5, 1, 5])
+    st.markdown('<div class="section-title">Match setup</div>', unsafe_allow_html=True)
+    select_a, vs_col, select_b = st.columns([5, 1, 5], vertical_alignment="center")
     with select_a:
-        team_a = st.selectbox("Team A", teams, index=0)
+        with st.container(border=True):
+            st.markdown('<div class="selector-label">Team A</div><div class="setup-title">Home side</div>', unsafe_allow_html=True)
+            team_a = st.selectbox("Team A", teams, index=0, label_visibility="collapsed")
     with vs_col:
-        st.markdown('<div class="vs-badge">VS</div>', unsafe_allow_html=True)
+        st.markdown('<div class="vs-node">VS</div>', unsafe_allow_html=True)
     with select_b:
         default_b = 1 if len(teams) > 1 else 0
-        team_b = st.selectbox("Team B", teams, index=default_b)
+        with st.container(border=True):
+            st.markdown('<div class="selector-label">Team B</div><div class="setup-title">Away side</div>', unsafe_allow_html=True)
+            team_b = st.selectbox("Team B", teams, index=default_b, label_visibility="collapsed")
 
     team_a_pool = profiles[profiles["team"] == team_a].drop_duplicates(subset=["player_name"])
     team_b_pool = profiles[profiles["team"] == team_b].drop_duplicates(subset=["player_name"])
@@ -1575,39 +2309,45 @@ def show_match_prediction(profiles: pd.DataFrame, clustered: pd.DataFrame, model
     team_b_lookup = player_meta_lookup(team_b_pool)
     team_a_key = f"team_a_players_{team_a}"
     team_b_key = f"team_b_players_{team_b}"
+    team_a_default = top_default_players(team_a_pool)
+    team_b_default = top_default_players(team_b_pool)
+    team_a_current = st.session_state.get(team_a_key, team_a_default)
+    team_b_current = st.session_state.get(team_b_key, team_b_default)
 
+    st.markdown('<div class="section-title">Team summary</div>', unsafe_allow_html=True)
+    summary_a, summary_b = st.columns(2)
+    with summary_a:
+        render_team_panel(team_a, team_a_current, team_a_pool, "#2563eb")
+    with summary_b:
+        render_team_panel(team_b, team_b_current, team_b_pool, "#16a34a")
+
+    st.markdown('<div class="section-title">Lineup builder</div>', unsafe_allow_html=True)
     col_a, col_b = st.columns(2)
     with col_a:
-        render_team_panel(
-            team_a,
-            st.session_state.get(team_a_key, top_default_players(team_a_pool)),
-            team_a_pool,
-            "#7df9ff",
-        )
-        team_a_players = st.multiselect(
-            f"{team_a} lineup",
-            team_a_options,
-            default=top_default_players(team_a_pool),
-            format_func=lambda player: player_display_name(player, team_a_lookup),
-            key=team_a_key,
-        )
-        render_lineup_pills(team_a, team_a_players, profiles, clustered)
+        with st.container(border=True):
+            st.markdown(f'<div class="lineup-builder-title">{escape(team_a)} lineup</div>', unsafe_allow_html=True)
+            team_a_players = st.multiselect(
+                f"{team_a} lineup",
+                team_a_options,
+                default=team_a_default,
+                format_func=lambda player: player_display_name(player, team_a_lookup),
+                key=team_a_key,
+                label_visibility="collapsed",
+            )
+            render_lineup_pills(team_a, team_a_players, profiles, clustered)
 
     with col_b:
-        render_team_panel(
-            team_b,
-            st.session_state.get(team_b_key, top_default_players(team_b_pool)),
-            team_b_pool,
-            "#0052ff",
-        )
-        team_b_players = st.multiselect(
-            f"{team_b} lineup",
-            team_b_options,
-            default=top_default_players(team_b_pool),
-            format_func=lambda player: player_display_name(player, team_b_lookup),
-            key=team_b_key,
-        )
-        render_lineup_pills(team_b, team_b_players, profiles, clustered)
+        with st.container(border=True):
+            st.markdown(f'<div class="lineup-builder-title">{escape(team_b)} lineup</div>', unsafe_allow_html=True)
+            team_b_players = st.multiselect(
+                f"{team_b} lineup",
+                team_b_options,
+                default=team_b_default,
+                format_func=lambda player: player_display_name(player, team_b_lookup),
+                key=team_b_key,
+                label_visibility="collapsed",
+            )
+            render_lineup_pills(team_b, team_b_players, profiles, clustered)
 
     ready = len(team_a_players) == 11 and len(team_b_players) == 11 and team_a != team_b
     render_match_status(team_a, team_b, len(team_a_players), len(team_b_players), ready)
@@ -1635,11 +2375,12 @@ def show_match_prediction(profiles: pd.DataFrame, clustered: pd.DataFrame, model
 
         st.markdown(build_probability_card(team_a, team_b, prediction), unsafe_allow_html=True)
         st.markdown(
-            electric_border(
-                f'<div class="card"><div class="card-kicker">Why this prediction?</div><p class="section-copy" style="margin: 8px 0 0;">{explain_prediction(team_a, team_b, prediction["matchup_features"])}</p></div>',
-                class_name="insight-electric",
-                color="#0052ff",
-            ),
+            f"""
+            <div class="card">
+              <div class="card-kicker">Why this prediction?</div>
+              <p class="section-copy" style="margin: 8px 0 0;">{explain_prediction(team_a, team_b, prediction["matchup_features"])}</p>
+            </div>
+            """,
             unsafe_allow_html=True,
         )
 
