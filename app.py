@@ -1352,6 +1352,28 @@ def inject_css() -> None:
           -webkit-text-fill-color: var(--text) !important;
         }
 
+        .hero-button-label {
+          color: inherit !important;
+          -webkit-text-fill-color: currentColor !important;
+          opacity: 1 !important;
+        }
+
+        .hero .mockup-row {
+          border-top-color: var(--border) !important;
+        }
+
+        .hero .mockup-row span {
+          color: var(--text) !important;
+          -webkit-text-fill-color: var(--text) !important;
+          opacity: 1 !important;
+        }
+
+        .hero .mockup-value {
+          color: var(--primary) !important;
+          -webkit-text-fill-color: var(--primary) !important;
+          font-weight: 800 !important;
+        }
+
         .mockup-card,
         .card,
         .metric-card,
@@ -2095,8 +2117,8 @@ def render_hero(profiles: pd.DataFrame, clustered: pd.DataFrame, match_count: in
                 with a clean machine learning dashboard.
               </div>
               <div class="hero-actions">
-                <a class="hero-cta" href="?view=Match%20Predictor#view-content">Start prediction</a>
-                <a class="hero-cta hero-secondary" href="?view=Player%20Explorer#view-content">Explore players</a>
+                <a class="hero-cta" href="?view=Match%20Predictor#view-content"><span class="hero-button-label">Start prediction</span></a>
+                <a class="hero-cta hero-secondary" href="?view=Player%20Explorer#view-content"><span class="hero-button-label">Explore players</span></a>
               </div>
             </div>
             <div class="mockup-stack">
