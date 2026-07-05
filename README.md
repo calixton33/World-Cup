@@ -150,6 +150,7 @@ For Streamlit Community Cloud, use:
 - Repository: `calixton33/World-Cup`
 - Branch: `main`
 - Main file path: `app.py`
+- Python version: `3.12`
 
 The app-required CSV files, saved model artifacts, and output summaries are committed so the hosted app can load without retraining during startup.
 
