@@ -1866,9 +1866,34 @@ def top_default_players(players: pd.DataFrame) -> list[str]:
         for col in ["matches_in_dataset", "minutes_played", "player_rating"]
         if col in players.columns
     ]
+    players = players.drop_duplicates("player_name").copy()
     if sort_cols:
         players = players.sort_values(sort_cols, ascending=[False] * len(sort_cols))
-    return players["player_name"].drop_duplicates().head(11).tolist()
+    if "position" not in players.columns:
+        return players["player_name"].head(11).tolist()
+
+    players["role_group"] = players["position"].map(position_group)
+    target_shape = {
+        "Goalkeepers": 1,
+        "Defenders": 4,
+        "Midfielders": 3,
+        "Forwards": 3,
+    }
+    selected: list[str] = []
+    for role, target in target_shape.items():
+        role_players = players[players["role_group"] == role]["player_name"].tolist()
+        for player in role_players:
+            if player not in selected:
+                selected.append(player)
+            if sum(players.loc[players["player_name"].isin(selected), "role_group"] == role) >= target:
+                break
+
+    for player in players["player_name"].tolist():
+        if len(selected) >= 11:
+            break
+        if player not in selected:
+            selected.append(player)
+    return selected[:11]
 
 
 def jersey_label(value: Any) -> str:
@@ -2111,7 +2136,13 @@ def render_lineup_pills(team: str, selected_players: list[str], profiles: pd.Dat
 
     table = table.assign(role_group=table["position"].map(position_group))
     role_sections = []
-    for role, group in sorted(table.groupby("role_group", sort=False), key=lambda item: role_sort_key(item[0])):
+    grouped = {role: group for role, group in table.groupby("role_group", sort=False)}
+    roles_to_render = ROLE_ORDER[:-1]
+    if "Other" in grouped:
+        roles_to_render = roles_to_render + ["Other"]
+
+    for role in roles_to_render:
+        group = grouped.get(role, table.iloc[0:0])
         sort_cols = [col for col in ["jersey_number", "player_name"] if col in group.columns]
         view = group.sort_values(sort_cols) if sort_cols else group
         chips = []
@@ -2128,12 +2159,13 @@ def render_lineup_pills(team: str, selected_players: list[str], profiles: pd.Dat
                 </span>
                 """
             )
+        chip_markup = "".join(chips) if chips else f'<span class="empty-lineup">No {escape(role.lower())} selected</span>'
         role_sections.append(
             html_block(
                 f"""
                 <div class="lineup-role">
                   <div class="role-heading"><span>{escape(role)}</span><span>{len(group)}</span></div>
-                  <div class="player-chip-grid">{''.join(chips)}</div>
+                  <div class="player-chip-grid">{chip_markup}</div>
                 </div>
                 """
             )
