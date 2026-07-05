@@ -21,20 +21,36 @@ Each row is a player performance in one match. The prediction target is match-le
 
 This dataset is used for learning and demonstration only. The data and model outputs should not be treated as official FIFA records, live results, betting odds, or verified forecasts.
 
-The raw Kaggle CSV, processed CSVs, saved models, charts, and generated reports are intentionally not committed to this public repository. Before redistributing any of those artifacts, confirm that the Kaggle dataset license allows redistribution.
+The Kaggle dataset page lists the dataset license as MIT. Dataset attribution and license notes are included in `THIRD_PARTY_NOTICES.md`.
 
 ## Project Structure
 
 ```text
 fifa-world-cup-ml-analytics/
 ├── data/
-│   └── README.md
+│   ├── README.md
+│   ├── fifa_world_cup_2026_player_performance-selected-columns-2.csv
+│   ├── player_profiles.csv
+│   ├── player_profiles_with_clusters.csv
+│   └── matchup_training_data.csv
+├── models/
+│   ├── final_match_model.pkl
+│   ├── training_columns.pkl
+│   ├── kmeans_model.pkl
+│   ├── clustering_scaler.pkl
+│   └── clustering_features.pkl
 ├── notebooks/
 │   └── fifa_world_cup_ml_analytics.ipynb
+├── outputs/
+│   ├── figures/
+│   ├── supervised_model_metrics.csv
+│   ├── cluster_summary.csv
+│   └── workflow_summary.json
 ├── app.py
 ├── main.py
 ├── EXPLANATION.md
 ├── README.md
+├── THIRD_PARTY_NOTICES.md
 └── requirements.txt
 ```
 
@@ -113,7 +129,7 @@ Generated artifacts are written locally to:
 
 ## How to Run the Streamlit App
 
-After downloading the Kaggle CSV and running `main.py`, start the app:
+Start the app:
 
 ```bash
 streamlit run app.py
@@ -129,7 +145,13 @@ Recommended deployment options:
 - Hugging Face Spaces with the Streamlit SDK
 - Render or Railway using `streamlit run app.py`
 
-Because the Kaggle dataset and generated model artifacts are intentionally not committed to this public repository, a hosted deployment will also need a permitted way to provide the dataset and regenerate the local artifacts. For a public demo, confirm the Kaggle dataset license before uploading the data or generated model files.
+For Streamlit Community Cloud, use:
+
+- Repository: `calixton33/World-Cup`
+- Branch: `main`
+- Main file path: `app.py`
+
+The app-required CSV files, saved model artifacts, and output summaries are committed so the hosted app can load without retraining during startup.
 
 The redesigned app supports:
 

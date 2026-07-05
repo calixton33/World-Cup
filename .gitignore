@@ -7,11 +7,7 @@ __pycache__/
 
 tmp/
 
-# Kaggle/raw data and generated ML artifacts
-data/*.csv
-models/*.pkl
-models/*.joblib
-outputs/
+# Locally generated reports not required by the hosted app
 output/
 
 # Environment and local secrets
