@@ -24,17 +24,8 @@ MODELS_DIR = ROOT / "models"
 OUTPUTS_DIR = ROOT / "outputs"
 FIGURES_DIR = OUTPUTS_DIR / "figures"
 
-os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".matplotlib"))
-(ROOT / ".matplotlib").mkdir(parents=True, exist_ok=True)
-
-import matplotlib
-
-matplotlib.use("Agg")
-
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
@@ -57,6 +48,21 @@ except ImportError:  # pragma: no cover - pickle fallback is here for portabilit
 
 
 DATA_FILE = DATA_DIR / "fifa_world_cup_2026_player_performance-selected-columns-2.csv"
+
+
+def get_plotting_modules():
+    """Import plotting libraries only when regenerating charts."""
+    os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".matplotlib"))
+    Path(os.environ["MPLCONFIGDIR"]).mkdir(parents=True, exist_ok=True)
+
+    import matplotlib
+
+    matplotlib.use("Agg")
+
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    return plt, sns
 
 IDENTIFIER_COLUMNS = [
     "player_name",
@@ -276,6 +282,7 @@ def select_supervised_columns(df: pd.DataFrame) -> list[str]:
 
 def create_eda_charts(df: pd.DataFrame, output_dir: Path = FIGURES_DIR) -> None:
     """Create exploratory analysis charts and save them as PNG files."""
+    plt, sns = get_plotting_modules()
     output_dir.mkdir(parents=True, exist_ok=True)
     sns.set_theme(style="whitegrid")
 
@@ -633,6 +640,7 @@ def plot_feature_importance(
     output_path: Path = FIGURES_DIR / "top_feature_importances.png",
 ) -> pd.DataFrame:
     """Plot top feature importances for the final tree model, or the best available tree model."""
+    plt, sns = get_plotting_modules()
     candidates = [final_model_name] + [name for name in ["Gradient Boosting", "Random Forest"] if name != final_model_name]
     chosen_name = None
     importances = None
@@ -879,6 +887,7 @@ def plot_clustering_outputs(
     clustering_features: list[str],
 ) -> None:
     """Save elbow, silhouette, PCA scatter, and cluster profile charts."""
+    plt, sns = get_plotting_modules()
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
     plt.figure(figsize=(7, 4))
