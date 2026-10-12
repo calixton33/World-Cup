@@ -1,0 +1,2567 @@
+{
+  "per_tournament": [
+    {
+      "year": 2006,
+      "model": "B0",
+      "name": "Training base rates",
+      "test_matches": 64,
+      "log_loss": 1.0293145823998906,
+      "brier_score": 0.6175602313657313,
+      "accuracy": 0.515625,
+      "train_matches": 12931.0,
+      "train_start": "1990-01-12",
+      "train_end": "2006-06-08",
+      "cutoff": "2006-06-09",
+      "calibration": "none (base rates)",
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2006,
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "test_matches": 64,
+      "log_loss": 0.8895984744494847,
+      "brier_score": 0.5143370366804657,
+      "accuracy": 0.640625,
+      "train_matches": 12931.0,
+      "train_start": "1990-01-12",
+      "train_end": "2006-06-08",
+      "cutoff": "2006-06-09",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 9353.0,
+      "fit_end": "2002-06-08",
+      "calibration_matches": 3578.0,
+      "calibration_start": "2002-06-09",
+      "calibration_end": "2006-06-08",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2006,
+      "model": "M1",
+      "name": "All-feature logistic",
+      "test_matches": 64,
+      "log_loss": 0.8786697310753614,
+      "brier_score": 0.5046750298642387,
+      "accuracy": 0.640625,
+      "train_matches": 12931.0,
+      "train_start": "1990-01-12",
+      "train_end": "2006-06-08",
+      "cutoff": "2006-06-09",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 9353.0,
+      "fit_end": "2002-06-08",
+      "calibration_matches": 3578.0,
+      "calibration_start": "2002-06-09",
+      "calibration_end": "2006-06-08",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2006,
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "test_matches": 64,
+      "log_loss": 0.90255929525973,
+      "brier_score": 0.5156725405370232,
+      "accuracy": 0.625,
+      "train_matches": 12931.0,
+      "train_start": "1990-01-12",
+      "train_end": "2006-06-08",
+      "cutoff": "2006-06-09",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 9353.0,
+      "fit_end": "2002-06-08",
+      "calibration_matches": 3578.0,
+      "calibration_start": "2002-06-09",
+      "calibration_end": "2006-06-08",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2006,
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "test_matches": 64,
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.640625,
+      "train_matches": null,
+      "train_start": null,
+      "train_end": null,
+      "cutoff": null,
+      "calibration": null,
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2010,
+      "model": "B0",
+      "name": "Training base rates",
+      "test_matches": 64,
+      "log_loss": 1.1150862453581334,
+      "brier_score": 0.6806048041124184,
+      "accuracy": 0.375,
+      "train_matches": 16758.0,
+      "train_start": "1990-01-12",
+      "train_end": "2010-06-08",
+      "cutoff": "2010-06-11",
+      "calibration": "none (base rates)",
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2010,
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "test_matches": 64,
+      "log_loss": 0.9826808297781857,
+      "brier_score": 0.5823018704077594,
+      "accuracy": 0.53125,
+      "train_matches": 16758.0,
+      "train_start": "1990-01-12",
+      "train_end": "2010-06-08",
+      "cutoff": "2010-06-11",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 12936.0,
+      "fit_end": "2006-06-10",
+      "calibration_matches": 3822.0,
+      "calibration_start": "2006-06-11",
+      "calibration_end": "2010-06-08",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2010,
+      "model": "M1",
+      "name": "All-feature logistic",
+      "test_matches": 64,
+      "log_loss": 0.9868068511352395,
+      "brier_score": 0.5874369172952256,
+      "accuracy": 0.546875,
+      "train_matches": 16758.0,
+      "train_start": "1990-01-12",
+      "train_end": "2010-06-08",
+      "cutoff": "2010-06-11",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 12936.0,
+      "fit_end": "2006-06-10",
+      "calibration_matches": 3822.0,
+      "calibration_start": "2006-06-11",
+      "calibration_end": "2010-06-08",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2010,
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "test_matches": 64,
+      "log_loss": 1.0584304200841927,
+      "brier_score": 0.6213380215181163,
+      "accuracy": 0.5,
+      "train_matches": 16758.0,
+      "train_start": "1990-01-12",
+      "train_end": "2010-06-08",
+      "cutoff": "2010-06-11",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 12936.0,
+      "fit_end": "2006-06-10",
+      "calibration_matches": 3822.0,
+      "calibration_start": "2006-06-11",
+      "calibration_end": "2010-06-08",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2010,
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "test_matches": 64,
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.53125,
+      "train_matches": null,
+      "train_start": null,
+      "train_end": null,
+      "cutoff": null,
+      "calibration": null,
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2014,
+      "model": "B0",
+      "name": "Training base rates",
+      "test_matches": 64,
+      "log_loss": 1.061832997966325,
+      "brier_score": 0.6426519750880995,
+      "accuracy": 0.453125,
+      "train_matches": 20755.0,
+      "train_start": "1990-01-12",
+      "train_end": "2014-06-10",
+      "cutoff": "2014-06-12",
+      "calibration": "none (base rates)",
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2014,
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "test_matches": 64,
+      "log_loss": 0.9023254702726029,
+      "brier_score": 0.5326890856745432,
+      "accuracy": 0.609375,
+      "train_matches": 20755.0,
+      "train_start": "1990-01-12",
+      "train_end": "2014-06-10",
+      "cutoff": "2014-06-12",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 16760.0,
+      "fit_end": "2010-06-11",
+      "calibration_matches": 3995.0,
+      "calibration_start": "2010-06-12",
+      "calibration_end": "2014-06-10",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2014,
+      "model": "M1",
+      "name": "All-feature logistic",
+      "test_matches": 64,
+      "log_loss": 0.8886807622888325,
+      "brier_score": 0.5225356793690852,
+      "accuracy": 0.59375,
+      "train_matches": 20755.0,
+      "train_start": "1990-01-12",
+      "train_end": "2014-06-10",
+      "cutoff": "2014-06-12",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 16760.0,
+      "fit_end": "2010-06-11",
+      "calibration_matches": 3995.0,
+      "calibration_start": "2010-06-12",
+      "calibration_end": "2014-06-10",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2014,
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "test_matches": 64,
+      "log_loss": 0.9696496540679787,
+      "brier_score": 0.5708601374976885,
+      "accuracy": 0.5625,
+      "train_matches": 20755.0,
+      "train_start": "1990-01-12",
+      "train_end": "2014-06-10",
+      "cutoff": "2014-06-12",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 16760.0,
+      "fit_end": "2010-06-11",
+      "calibration_matches": 3995.0,
+      "calibration_start": "2010-06-12",
+      "calibration_end": "2014-06-10",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2014,
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "test_matches": 64,
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.625,
+      "train_matches": null,
+      "train_start": null,
+      "train_end": null,
+      "cutoff": null,
+      "calibration": null,
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2018,
+      "model": "B0",
+      "name": "Training base rates",
+      "test_matches": 64,
+      "log_loss": 1.0963260647212412,
+      "brier_score": 0.6684272536876431,
+      "accuracy": 0.390625,
+      "train_matches": 24533.0,
+      "train_start": "1990-01-12",
+      "train_end": "2018-06-12",
+      "cutoff": "2018-06-14",
+      "calibration": "none (base rates)",
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2018,
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "test_matches": 64,
+      "log_loss": 0.9698343128591238,
+      "brier_score": 0.5762789925187352,
+      "accuracy": 0.53125,
+      "train_matches": 24533.0,
+      "train_start": "1990-01-12",
+      "train_end": "2018-06-12",
+      "cutoff": "2018-06-14",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 20759.0,
+      "fit_end": "2014-06-13",
+      "calibration_matches": 3774.0,
+      "calibration_start": "2014-06-14",
+      "calibration_end": "2018-06-12",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2018,
+      "model": "M1",
+      "name": "All-feature logistic",
+      "test_matches": 64,
+      "log_loss": 0.9604512272088186,
+      "brier_score": 0.5697199327602981,
+      "accuracy": 0.546875,
+      "train_matches": 24533.0,
+      "train_start": "1990-01-12",
+      "train_end": "2018-06-12",
+      "cutoff": "2018-06-14",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 20759.0,
+      "fit_end": "2014-06-13",
+      "calibration_matches": 3774.0,
+      "calibration_start": "2014-06-14",
+      "calibration_end": "2018-06-12",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2018,
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "test_matches": 64,
+      "log_loss": 1.0211133220075541,
+      "brier_score": 0.6028993460314237,
+      "accuracy": 0.484375,
+      "train_matches": 24533.0,
+      "train_start": "1990-01-12",
+      "train_end": "2018-06-12",
+      "cutoff": "2018-06-14",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 20759.0,
+      "fit_end": "2014-06-13",
+      "calibration_matches": 3774.0,
+      "calibration_start": "2014-06-14",
+      "calibration_end": "2018-06-12",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2018,
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "test_matches": 64,
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.5625,
+      "train_matches": null,
+      "train_start": null,
+      "train_end": null,
+      "cutoff": null,
+      "calibration": null,
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2022,
+      "model": "B0",
+      "name": "Training base rates",
+      "test_matches": 64,
+      "log_loss": 1.074196598937029,
+      "brier_score": 0.6509164056566863,
+      "accuracy": 0.4375,
+      "train_matches": 28616.0,
+      "train_start": "1990-01-12",
+      "train_end": "2022-11-19",
+      "cutoff": "2022-11-20",
+      "calibration": "none (base rates)",
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2022,
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "test_matches": 64,
+      "log_loss": 1.087483205891788,
+      "brier_score": 0.6276124985429118,
+      "accuracy": 0.515625,
+      "train_matches": 28616.0,
+      "train_start": "1990-01-12",
+      "train_end": "2022-11-19",
+      "cutoff": "2022-11-20",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 25057.0,
+      "fit_end": "2018-11-19",
+      "calibration_matches": 3559.0,
+      "calibration_start": "2018-11-20",
+      "calibration_end": "2022-11-19",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2022,
+      "model": "M1",
+      "name": "All-feature logistic",
+      "test_matches": 64,
+      "log_loss": 1.0957717400582676,
+      "brier_score": 0.6345476602995761,
+      "accuracy": 0.515625,
+      "train_matches": 28616.0,
+      "train_start": "1990-01-12",
+      "train_end": "2022-11-19",
+      "cutoff": "2022-11-20",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 25057.0,
+      "fit_end": "2018-11-19",
+      "calibration_matches": 3559.0,
+      "calibration_start": "2018-11-20",
+      "calibration_end": "2022-11-19",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2022,
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "test_matches": 64,
+      "log_loss": 1.081119865118794,
+      "brier_score": 0.633265798253281,
+      "accuracy": 0.5,
+      "train_matches": 28616.0,
+      "train_start": "1990-01-12",
+      "train_end": "2022-11-19",
+      "cutoff": "2022-11-20",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 25057.0,
+      "fit_end": "2018-11-19",
+      "calibration_matches": 3559.0,
+      "calibration_start": "2018-11-20",
+      "calibration_end": "2022-11-19",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2022,
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "test_matches": 64,
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.546875,
+      "train_matches": null,
+      "train_start": null,
+      "train_end": null,
+      "cutoff": null,
+      "calibration": null,
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2026,
+      "model": "B0",
+      "name": "Training base rates",
+      "test_matches": 104,
+      "log_loss": 1.0545383721119248,
+      "brier_score": 0.6364297727359359,
+      "accuracy": 0.47115384615384615,
+      "train_matches": 32351.0,
+      "train_start": "1990-01-12",
+      "train_end": "2026-06-10",
+      "cutoff": "2026-06-11",
+      "calibration": "none (base rates)",
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    },
+    {
+      "year": 2026,
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "test_matches": 104,
+      "log_loss": 0.8475461230781344,
+      "brier_score": 0.4975905672593947,
+      "accuracy": 0.6634615384615384,
+      "train_matches": 32351.0,
+      "train_start": "1990-01-12",
+      "train_end": "2026-06-10",
+      "cutoff": "2026-06-11",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 28264.0,
+      "fit_end": "2022-06-10",
+      "calibration_matches": 4087.0,
+      "calibration_start": "2022-06-11",
+      "calibration_end": "2026-06-10",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2026,
+      "model": "M1",
+      "name": "All-feature logistic",
+      "test_matches": 104,
+      "log_loss": 0.8543951497948545,
+      "brier_score": 0.4970913165929479,
+      "accuracy": 0.6442307692307693,
+      "train_matches": 32351.0,
+      "train_start": "1990-01-12",
+      "train_end": "2026-06-10",
+      "cutoff": "2026-06-11",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 28264.0,
+      "fit_end": "2022-06-10",
+      "calibration_matches": 4087.0,
+      "calibration_start": "2022-06-11",
+      "calibration_end": "2026-06-10",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2026,
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "test_matches": 104,
+      "log_loss": 0.8517521625904934,
+      "brier_score": 0.5018758739663204,
+      "accuracy": 0.6346153846153846,
+      "train_matches": 32351.0,
+      "train_start": "1990-01-12",
+      "train_end": "2026-06-10",
+      "cutoff": "2026-06-11",
+      "calibration": "sigmoid on chronological holdout",
+      "fit_matches": 28264.0,
+      "fit_end": "2022-06-10",
+      "calibration_matches": 4087.0,
+      "calibration_start": "2022-06-11",
+      "calibration_end": "2026-06-10",
+      "calibration_years": 4.0
+    },
+    {
+      "year": 2026,
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "test_matches": 104,
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.6538461538461539,
+      "train_matches": null,
+      "train_start": null,
+      "train_end": null,
+      "cutoff": null,
+      "calibration": null,
+      "fit_matches": null,
+      "fit_end": null,
+      "calibration_matches": null,
+      "calibration_start": null,
+      "calibration_end": null,
+      "calibration_years": null
+    }
+  ],
+  "mean_metrics": [
+    {
+      "model": "B0",
+      "name": "Training base rates",
+      "log_loss": 1.071882476915757,
+      "brier_score": 0.6494317404410858,
+      "accuracy": 0.4405048076923077
+    },
+    {
+      "model": "B1",
+      "name": "Elo logistic baseline",
+      "log_loss": 0.9465780693882199,
+      "brier_score": 0.5551350085139684,
+      "accuracy": 0.5819310897435898
+    },
+    {
+      "model": "M1",
+      "name": "All-feature logistic",
+      "log_loss": 0.9441292435935621,
+      "brier_score": 0.5526677560302286,
+      "accuracy": 0.5813301282051282
+    },
+    {
+      "model": "M2",
+      "name": "Histogram gradient boosting",
+      "log_loss": 0.9807707865214571,
+      "brier_score": 0.5743186196339755,
+      "accuracy": 0.5510817307692307
+    },
+    {
+      "model": "Elo pick",
+      "name": "Pick higher Elo",
+      "log_loss": null,
+      "brier_score": null,
+      "accuracy": 0.5933493589743589
+    }
+  ],
+  "splits": [
+    {
+      "year": 2006,
+      "cutoff": "2006-06-09",
+      "train_matches": 12931,
+      "max_train_date": "2006-06-08",
+      "min_test_date": "2006-06-09",
+      "max_test_date": "2006-07-09",
+      "test_matches": 64,
+      "expected_matches": 64,
+      "complete": true
+    },
+    {
+      "year": 2010,
+      "cutoff": "2010-06-11",
+      "train_matches": 16758,
+      "max_train_date": "2010-06-08",
+      "min_test_date": "2010-06-11",
+      "max_test_date": "2010-07-11",
+      "test_matches": 64,
+      "expected_matches": 64,
+      "complete": true
+    },
+    {
+      "year": 2014,
+      "cutoff": "2014-06-12",
+      "train_matches": 20755,
+      "max_train_date": "2014-06-10",
+      "min_test_date": "2014-06-12",
+      "max_test_date": "2014-07-13",
+      "test_matches": 64,
+      "expected_matches": 64,
+      "complete": true
+    },
+    {
+      "year": 2018,
+      "cutoff": "2018-06-14",
+      "train_matches": 24533,
+      "max_train_date": "2018-06-12",
+      "min_test_date": "2018-06-14",
+      "max_test_date": "2018-07-15",
+      "test_matches": 64,
+      "expected_matches": 64,
+      "complete": true
+    },
+    {
+      "year": 2022,
+      "cutoff": "2022-11-20",
+      "train_matches": 28616,
+      "max_train_date": "2022-11-19",
+      "min_test_date": "2022-11-20",
+      "max_test_date": "2022-12-18",
+      "test_matches": 64,
+      "expected_matches": 64,
+      "complete": true
+    },
+    {
+      "year": 2026,
+      "cutoff": "2026-06-11",
+      "train_matches": 32351,
+      "max_train_date": "2026-06-10",
+      "min_test_date": "2026-06-11",
+      "max_test_date": "2026-07-19",
+      "test_matches": 104,
+      "expected_matches": 104,
+      "complete": true
+    }
+  ],
+  "selection": {
+    "model": "M1",
+    "name": "All-feature logistic",
+    "mean_log_loss": 0.9441292435935621,
+    "runner_up": "B1",
+    "margin_log_loss": 0.002448825794657772,
+    "rule": "Lowest unweighted mean tournament log loss; candidate order breaks exact ties",
+    "baseline_won": false
+  },
+  "test_tournaments": 6,
+  "test_matches": 424,
+  "diagnostics": {
+    "B0": {
+      "actual_draws": 96,
+      "predicted_draws": 0,
+      "draw_recall": 0.0,
+      "pooled_metrics": {
+        "log_loss": 1.070246240613509,
+        "brier_score": 0.6482051397141848,
+        "accuracy": 0.44339622641509435
+      }
+    },
+    "B1": {
+      "actual_draws": 96,
+      "predicted_draws": 0,
+      "draw_recall": 0.0,
+      "pooled_metrics": {
+        "log_loss": 0.9372354329438722,
+        "brier_score": 0.5497062876408954,
+        "accuracy": 0.589622641509434
+      }
+    },
+    "M1": {
+      "actual_draws": 96,
+      "predicted_draws": 0,
+      "draw_recall": 0.0,
+      "pooled_metrics": {
+        "log_loss": 0.9356637630465144,
+        "brier_score": 0.5474246957059569,
+        "accuracy": 0.5872641509433962
+      }
+    },
+    "M2": {
+      "actual_draws": 96,
+      "predicted_draws": 15,
+      "draw_recall": 0.020833333333333332,
+      "pooled_metrics": {
+        "log_loss": 0.9685992182260831,
+        "brier_score": 0.5674843983445741,
+        "accuracy": 0.5589622641509434
+      }
+    }
+  },
+  "fold_winners": [
+    {
+      "year": 2006,
+      "model": "M1",
+      "log_loss": 0.8786697310753614
+    },
+    {
+      "year": 2010,
+      "model": "B1",
+      "log_loss": 0.9826808297781857
+    },
+    {
+      "year": 2014,
+      "model": "M1",
+      "log_loss": 0.8886807622888325
+    },
+    {
+      "year": 2018,
+      "model": "M1",
+      "log_loss": 0.9604512272088186
+    },
+    {
+      "year": 2022,
+      "model": "B0",
+      "log_loss": 1.074196598937029
+    },
+    {
+      "year": 2026,
+      "model": "B1",
+      "log_loss": 0.8475461230781344
+    }
+  ],
+  "generated_at_utc": "2026-10-12T00:24:55.299478+00:00",
+  "data": {
+    "input_rows": 49945,
+    "completed_matches": 49945,
+    "missing_scores_removed": 0,
+    "future_rows_removed": 0,
+    "exact_duplicates_removed": 0,
+    "team_name_cells_normalised": 0,
+    "former_names_available": true,
+    "first_match": "1872-11-30",
+    "last_match": "2026-10-06",
+    "teams": 337,
+    "as_of": "2026-10-12",
+    "source_sha256": {
+      "results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+      "former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+      "shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+    },
+    "tournament_k": {
+      "ABCS Tournament": 30,
+      "AFC Asian Cup": 50,
+      "AFC Asian Cup qualification": 40,
+      "AFC Challenge Cup": 30,
+      "AFC Challenge Cup qualification": 30,
+      "AFC Solidarity Cup": 30,
+      "AFF Championship": 30,
+      "AFF Championship qualification": 30,
+      "ASEAN Championship": 30,
+      "ASEAN Championship qualification": 30,
+      "Afghanistan Republic Day Festival Cup": 30,
+      "African Cup of Nations": 50,
+      "African Cup of Nations qualification": 40,
+      "African Friendship Games": 30,
+      "Afro-Asian Games": 30,
+      "Al Ain International Cup": 30,
+      "All-African Games": 30,
+      "Am\u00edlcar Cabral Cup": 30,
+      "Arab Cup": 30,
+      "Arab Cup qualification": 30,
+      "Asian Games": 30,
+      "Atlantic Cup": 30,
+      "Atlantic Heritage Cup": 30,
+      "Australia Bicentenary Gold Cup": 30,
+      "Balkan Cup": 30,
+      "Baltic Cup": 30,
+      "Bangabandhu Cup": 30,
+      "Bangladesh President's Gold Cup": 30,
+      "Beijing International Friendship Tournament": 30,
+      "Benedikt Fontana Cup": 30,
+      "Bolivarian Games": 30,
+      "Brazil Independence Cup": 30,
+      "British Home Championship": 30,
+      "CAFA Nations Cup": 30,
+      "CCCF Championship": 50,
+      "CECAFA Cup": 30,
+      "CFU Caribbean Cup": 30,
+      "CFU Caribbean Cup qualification": 30,
+      "CONCACAF Championship": 50,
+      "CONCACAF Championship qualification": 40,
+      "CONCACAF Nations League": 30,
+      "CONCACAF Nations League qualification": 30,
+      "CONCACAF Series": 30,
+      "CONIFA Africa Football Cup": 30,
+      "CONIFA Asia Cup": 30,
+      "CONIFA European Football Cup": 30,
+      "CONIFA South America Football Cup": 30,
+      "CONIFA World Cup qualification": 30,
+      "CONIFA World Football Cup": 30,
+      "CONIFA World Football Cup qualification": 30,
+      "CONMEBOL\u2013UEFA Cup of Champions": 50,
+      "COSAFA Cup": 30,
+      "COSAFA Cup qualification": 30,
+      "CTFA International Tournament": 30,
+      "Canadian Shield": 30,
+      "Central American and Caribbean Games": 30,
+      "Central European International Cup": 30,
+      "China Cup": 30,
+      "Columbus Cup": 30,
+      "ConIFA Challenger Cup": 30,
+      "Confederations Cup": 50,
+      "Copa Am\u00e9rica": 50,
+      "Copa Am\u00e9rica qualification": 40,
+      "Copa Artigas": 30,
+      "Copa Bernardo O'Higgins": 30,
+      "Copa Carlos Dittborn": 30,
+      "Copa Chevallier Boutell": 30,
+      "Copa Confraternidad": 30,
+      "Copa F\u00e9lix Bogado": 30,
+      "Copa Juan Pinto Dur\u00e1n": 30,
+      "Copa Lipton": 30,
+      "Copa Newton": 30,
+      "Copa Oswaldo Cruz": 30,
+      "Copa Paz del Chaco": 30,
+      "Copa Premio Honor Argentino": 30,
+      "Copa Premio Honor Uruguayo": 30,
+      "Copa Ram\u00f3n Castilla": 30,
+      "Copa Rio Branco": 30,
+      "Copa Roca": 30,
+      "Copa del Pac\u00edfico": 30,
+      "Corsica Cup": 30,
+      "Coupe de l'Outre-Mer": 30,
+      "Cup of Ancient Civilizations": 30,
+      "Cyprus International Tournament": 30,
+      "Dakar Tournament": 30,
+      "Diamond Jubilee International Football Tournament": 30,
+      "Dragon Cup": 30,
+      "Dunhill Cup": 30,
+      "Dynasty Cup": 30,
+      "EAFF Championship": 30,
+      "EAFF Championship qualification": 30,
+      "ELF Cup": 30,
+      "East Asian Games": 30,
+      "FAS Tri-Nations Series": 30,
+      "FIFA 75th Anniversary Cup": 30,
+      "FIFA ASEAN Challenge Cup": 30,
+      "FIFA ASEAN Cup": 30,
+      "FIFA Series": 30,
+      "FIFA World Cup": 60,
+      "FIFA World Cup qualification": 40,
+      "FIFI Wild Cup": 30,
+      "Far Eastern Championship Games": 30,
+      "Four Nations Tournament": 30,
+      "Four Nations' Cup": 30,
+      "Friendly": 20,
+      "Fuchs International Tournament": 30,
+      "GaNEFo": 30,
+      "Gold Cup": 50,
+      "Gold Cup qualification": 40,
+      "Great Wall Cup": 30,
+      "Guangzhou International Friendship Tournament": 30,
+      "Gulf Cup": 30,
+      "Hungary Heritage Cup": 30,
+      "Indian Ocean Island Games": 30,
+      "Indonesian Independence Cup": 30,
+      "Inter Games": 30,
+      "Inter-Allied Games": 30,
+      "Intercontinental Cup": 30,
+      "International Friendship Championship": 30,
+      "International Tournament of Peoples, Cultures and Tribes": 30,
+      "Iran International Tournament": 30,
+      "Island Games": 30,
+      "Jakarta Anniversary Tournament": 30,
+      "Joe Robbie Cup": 30,
+      "Jordan International Tournament": 30,
+      "KTFF 50th Anniversary Cup": 30,
+      "King Hassan II Tournament": 30,
+      "King's Cup": 30,
+      "Kirin Challenge Cup": 30,
+      "Kirin Cup": 30,
+      "Korea Cup": 30,
+      "Kuneitra Cup": 30,
+      "LG Cup": 30,
+      "Los Angeles Nations Cup": 30,
+      "Lunar New Year Cup": 30,
+      "MSG Prime Minister's Cup": 30,
+      "Mahinda Rajapaksa Cup": 30,
+      "Malta International Tournament": 30,
+      "Mapinduzi Cup": 30,
+      "Maple Cup": 30,
+      "Marianas Cup": 30,
+      "Marlboro Cup": 30,
+      "Matthews Cup": 30,
+      "Mauritius Four Nations Cup": 30,
+      "Mediterranean Cup": 30,
+      "Melanesia Cup": 30,
+      "Merdeka Tournament": 30,
+      "Merlion Cup": 30,
+      "Miami Cup": 30,
+      "Millennium Cup": 30,
+      "Morocco, Capital of African Football": 30,
+      "Mukuru 4 Nations": 30,
+      "Mundialito": 30,
+      "Muratti Vase": 30,
+      "NAFC Championship": 50,
+      "NAFU Championship": 30,
+      "Nations Cup": 30,
+      "Navruz Cup": 30,
+      "Nehru Cup": 30,
+      "Niamh Challenge Cup": 30,
+      "Nile Basin Tournament": 30,
+      "Nordic Championship": 30,
+      "OSN Cup": 30,
+      "Oceania Nations Cup": 50,
+      "Oceania Nations Cup qualification": 40,
+      "Olympic Games": 30,
+      "Open International Championship": 30,
+      "Outrigger Challenge Cup": 30,
+      "Pacific Games": 30,
+      "Pacific Mini Games": 30,
+      "Palestine Cup": 30,
+      "Palestine International Championship": 30,
+      "Pan American Championship": 50,
+      "Peace Cup": 30,
+      "Philippine Peace Cup": 30,
+      "Phillip Seaga Cup": 30,
+      "President's Gold Cup International Tournament": 30,
+      "Prime Minister's Cup": 30,
+      "Quaid-e-Azam International Tournament": 30,
+      "Real Madrid 75th Anniversary Cup": 30,
+      "Rous Cup": 30,
+      "SAFF Cup": 30,
+      "SKN Football Festival": 30,
+      "Scania 100 Tournament": 30,
+      "Simba Tournament": 30,
+      "Soccer Ashes": 30,
+      "South Asian Games": 30,
+      "South Asian Super Cup": 30,
+      "South Pacific Games": 30,
+      "South Pacific Mini Games": 30,
+      "Southeast Asian Games": 30,
+      "Southeast Asian Peninsular Games": 30,
+      "Supercl\u00e1sico de las Am\u00e9ricas": 30,
+      "TIFOCO Tournament": 30,
+      "Ta\u00e7a das Na\u00e7\u00f5es": 30,
+      "The Other Final": 30,
+      "Three Nations Cup": 30,
+      "Tournament Burkina Faso": 30,
+      "Tournoi de France": 30,
+      "Trans-Tasman Cup": 30,
+      "Tri Nation Tournament": 30,
+      "Tri-Nation Series": 30,
+      "Tri-Nations Cup": 30,
+      "Tri-Nations Series": 30,
+      "Tynwald Hill Tournament": 30,
+      "U.S.A. Bicentennial Cup Tournament": 30,
+      "UDEAC Cup": 30,
+      "UEFA Euro": 50,
+      "UEFA Euro qualification": 40,
+      "UEFA Nations League": 30,
+      "UNCAF Cup": 30,
+      "UNIFFAC Cup": 30,
+      "USA Cup": 30,
+      "Umbro Cup": 30,
+      "United Arab Emirates Friendship Tournament": 30,
+      "Unity Cup": 30,
+      "VFF Cup": 30,
+      "Vietnam Independence Cup": 30,
+      "Viva World Cup": 30,
+      "WAFF Championship": 30,
+      "West African Cup": 30,
+      "Windward Islands Tournament": 30,
+      "World Unity Cup": 30,
+      "Zambian Independence Tournament": 30,
+      "\u00c9vence Copp\u00e9e Trophy": 30
+    },
+    "source": {
+      "repository": "https://github.com/martj42/international_results",
+      "revision": "d5bd6de012c87e2f325de602ae77fe2f9ab61ef3",
+      "downloaded_at_utc": "2026-10-12T00:07:17.599462+00:00",
+      "sha256": {
+        "results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+        "former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+        "shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+      }
+    },
+    "source_files_match_manifest": true,
+    "tournament_classifications": [
+      {
+        "tournament": "ABCS Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "AFC Asian Cup",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "AFC Asian Cup qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "AFC Challenge Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "AFC Challenge Cup qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "AFC Solidarity Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "AFF Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "AFF Championship qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "ASEAN Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "ASEAN Championship qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Afghanistan Republic Day Festival Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "African Cup of Nations",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "African Cup of Nations qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "African Friendship Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Afro-Asian Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Al Ain International Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "All-African Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Am\u00edlcar Cabral Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Arab Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Arab Cup qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Asian Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Atlantic Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Atlantic Heritage Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Australia Bicentenary Gold Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Balkan Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Baltic Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Bangabandhu Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Bangladesh President's Gold Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Beijing International Friendship Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Benedikt Fontana Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Bolivarian Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Brazil Independence Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "British Home Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CAFA Nations Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CCCF Championship",
+        "k": 50,
+        "judgement": true,
+        "reason": "Historic continental predecessor or major intercontinental finals"
+      },
+      {
+        "tournament": "CECAFA Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CFU Caribbean Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CFU Caribbean Cup qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONCACAF Championship",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "CONCACAF Championship qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "CONCACAF Nations League",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONCACAF Nations League qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONCACAF Series",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA Africa Football Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA Asia Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA European Football Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA South America Football Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA World Cup qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA World Football Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONIFA World Football Cup qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CONMEBOL\u2013UEFA Cup of Champions",
+        "k": 50,
+        "judgement": true,
+        "reason": "Historic continental predecessor or major intercontinental finals"
+      },
+      {
+        "tournament": "COSAFA Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "COSAFA Cup qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "CTFA International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Canadian Shield",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Central American and Caribbean Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Central European International Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "China Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Columbus Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "ConIFA Challenger Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Confederations Cup",
+        "k": 50,
+        "judgement": true,
+        "reason": "Historic continental predecessor or major intercontinental finals"
+      },
+      {
+        "tournament": "Copa Am\u00e9rica",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Copa Am\u00e9rica qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Copa Artigas",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Bernardo O'Higgins",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Carlos Dittborn",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Chevallier Boutell",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Confraternidad",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa F\u00e9lix Bogado",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Juan Pinto Dur\u00e1n",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Lipton",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Newton",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Oswaldo Cruz",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Paz del Chaco",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Premio Honor Argentino",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Premio Honor Uruguayo",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Ram\u00f3n Castilla",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Rio Branco",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa Roca",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Copa del Pac\u00edfico",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Corsica Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Coupe de l'Outre-Mer",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Cup of Ancient Civilizations",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Cyprus International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Dakar Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Diamond Jubilee International Football Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Dragon Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Dunhill Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Dynasty Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "EAFF Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "EAFF Championship qualification",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "ELF Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "East Asian Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "FAS Tri-Nations Series",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "FIFA 75th Anniversary Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "FIFA ASEAN Challenge Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "FIFA ASEAN Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "FIFA Series",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "FIFA World Cup",
+        "k": 60,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "FIFA World Cup qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "FIFI Wild Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Far Eastern Championship Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Four Nations Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Four Nations' Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Friendly",
+        "k": 20,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Fuchs International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "GaNEFo",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Gold Cup",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Gold Cup qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Great Wall Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Guangzhou International Friendship Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Gulf Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Hungary Heritage Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Indian Ocean Island Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Indonesian Independence Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Inter Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Inter-Allied Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Intercontinental Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "International Friendship Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "International Tournament of Peoples, Cultures and Tribes",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Iran International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Island Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Jakarta Anniversary Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Joe Robbie Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Jordan International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "KTFF 50th Anniversary Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "King Hassan II Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "King's Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Kirin Challenge Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Kirin Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Korea Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Kuneitra Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "LG Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Los Angeles Nations Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Lunar New Year Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "MSG Prime Minister's Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Mahinda Rajapaksa Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Malta International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Mapinduzi Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Maple Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Marianas Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Marlboro Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Matthews Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Mauritius Four Nations Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Mediterranean Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Melanesia Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Merdeka Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Merlion Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Miami Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Millennium Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Morocco, Capital of African Football",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Mukuru 4 Nations",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Mundialito",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Muratti Vase",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "NAFC Championship",
+        "k": 50,
+        "judgement": true,
+        "reason": "Historic continental predecessor or major intercontinental finals"
+      },
+      {
+        "tournament": "NAFU Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Nations Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Navruz Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Nehru Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Niamh Challenge Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Nile Basin Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Nordic Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "OSN Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Oceania Nations Cup",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Oceania Nations Cup qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "Olympic Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Open International Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Outrigger Challenge Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Pacific Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Pacific Mini Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Palestine Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Palestine International Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Pan American Championship",
+        "k": 50,
+        "judgement": true,
+        "reason": "Historic continental predecessor or major intercontinental finals"
+      },
+      {
+        "tournament": "Peace Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Philippine Peace Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Phillip Seaga Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "President's Gold Cup International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Prime Minister's Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Quaid-e-Azam International Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Real Madrid 75th Anniversary Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Rous Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "SAFF Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "SKN Football Festival",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Scania 100 Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Simba Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Soccer Ashes",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "South Asian Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "South Asian Super Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "South Pacific Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "South Pacific Mini Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Southeast Asian Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Southeast Asian Peninsular Games",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Supercl\u00e1sico de las Am\u00e9ricas",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "TIFOCO Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Ta\u00e7a das Na\u00e7\u00f5es",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "The Other Final",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Three Nations Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tournament Burkina Faso",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tournoi de France",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Trans-Tasman Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tri Nation Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tri-Nation Series",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tri-Nations Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tri-Nations Series",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Tynwald Hill Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "U.S.A. Bicentennial Cup Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "UDEAC Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "UEFA Euro",
+        "k": 50,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "UEFA Euro qualification",
+        "k": 40,
+        "judgement": false,
+        "reason": "Named principal finals, qualifiers, or friendlies"
+      },
+      {
+        "tournament": "UEFA Nations League",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "UNCAF Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "UNIFFAC Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "USA Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Umbro Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "United Arab Emirates Friendship Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Unity Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "VFF Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Vietnam Independence Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Viva World Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "WAFF Championship",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "West African Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Windward Islands Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "World Unity Cup",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "Zambian Independence Tournament",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      },
+      {
+        "tournament": "\u00c9vence Copp\u00e9e Trophy",
+        "k": 30,
+        "judgement": true,
+        "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+      }
+    ]
+  },
+  "config": {
+    "train_start_year": 1990,
+    "calibration_years": 4,
+    "first_test_year": 2006,
+    "initial_elo": 1500.0,
+    "home_elo_bonus": 100.0,
+    "elo_scale": 400,
+    "form_windows": [
+      5,
+      10
+    ],
+    "cold_start_prior": 1.0,
+    "k_tiers": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "feature_count": 21,
+    "reliability_bins": 10,
+    "brier_range": [
+      0,
+      2
+    ],
+    "wilson_confidence": 0.95,
+    "classes": [
+      "draw",
+      "loss",
+      "win"
+    ],
+    "features": [
+      "home_elo",
+      "away_elo",
+      "elo_diff",
+      "home_advantage",
+      "k_tier",
+      "home_ppg_5",
+      "home_gf_pg_5",
+      "home_ga_pg_5",
+      "home_n_5",
+      "home_ppg_10",
+      "home_gf_pg_10",
+      "home_ga_pg_10",
+      "home_n_10",
+      "away_ppg_5",
+      "away_gf_pg_5",
+      "away_ga_pg_5",
+      "away_n_5",
+      "away_ppg_10",
+      "away_gf_pg_10",
+      "away_ga_pg_10",
+      "away_n_10"
+    ],
+    "models": {
+      "B0": "Training base rates",
+      "B1": "Elo logistic baseline",
+      "M1": "All-feature logistic",
+      "M2": "Histogram gradient boosting"
+    },
+    "parameters": {
+      "B0": {
+        "method": "empirical training frequencies"
+      },
+      "B1": {
+        "C": 1.0,
+        "solver": "lbfgs",
+        "max_iter": 1000,
+        "tol": 1e-06
+      },
+      "M1": {
+        "C": 1.0,
+        "solver": "lbfgs",
+        "max_iter": 1000,
+        "tol": 1e-06
+      },
+      "M2": {
+        "max_iter": 150,
+        "learning_rate": 0.07,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 42
+      }
+    }
+  },
+  "methodology": {
+    "forecast": "before each match date; earlier tournament dates may update Elo and form",
+    "same_day": "all features frozen before any results from that date",
+    "calibration": "sigmoid; base fit before holdout, never refit on holdout; B0 uses full training rates",
+    "brier": "mean sum of squared class-probability errors (no division by number of classes)",
+    "selection_caveat": "Backtests choose the model; no independent post-selection holdout remains",
+    "elo_reference": "higher raw Elo predicts win/loss; exact equal-rating ties predict draw",
+    "judgement_k": "Historical continental predecessors, Confederations Cup, CONMEBOL\u2013UEFA and Pan American finals use 50. Nations Leagues, regional qualifiers, invitation, bilateral and non-FIFA cups use 30; every exact source name is listed in tournament_k."
+  },
+  "environment": {
+    "python": "3.12.5",
+    "pandas": "2.3.0",
+    "numpy": "2.3.1",
+    "scikit-learn": "1.7.0",
+    "streamlit": "1.58.0",
+    "altair": "6.2.2"
+  },
+  "final_training": {
+    "model": "M1",
+    "data_through": "2026-10-06",
+    "data_as_of": "2026-10-12",
+    "source_sha256": {
+      "results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+      "former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+      "shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+    },
+    "environment": {
+      "python": "3.12.5",
+      "pandas": "2.3.0",
+      "numpy": "2.3.1",
+      "scikit-learn": "1.7.0",
+      "streamlit": "1.58.0",
+      "altair": "6.2.2"
+    },
+    "training": {
+      "train_matches": 32821,
+      "train_start": "1990-01-12",
+      "train_end": "2026-10-06",
+      "cutoff": "2026-10-07",
+      "fit_matches": 28534,
+      "fit_end": "2022-10-01",
+      "calibration_matches": 4287,
+      "calibration_start": "2022-10-22",
+      "calibration_end": "2026-10-06",
+      "calibration": "sigmoid on chronological holdout",
+      "calibration_years": 4
+    },
+    "columns": [
+      "home_elo",
+      "away_elo",
+      "elo_diff",
+      "home_advantage",
+      "k_tier",
+      "home_ppg_5",
+      "home_gf_pg_5",
+      "home_ga_pg_5",
+      "home_n_5",
+      "home_ppg_10",
+      "home_gf_pg_10",
+      "home_ga_pg_10",
+      "home_n_10",
+      "away_ppg_5",
+      "away_gf_pg_5",
+      "away_ga_pg_5",
+      "away_n_5",
+      "away_ppg_10",
+      "away_gf_pg_10",
+      "away_ga_pg_10",
+      "away_n_10"
+    ],
+    "selected_mean_log_loss": 0.9441292435935621,
+    "artifact_sha256": {
+      "final_model.pkl": "cda009819f1b8050441bf4a10100a267895d50f810c4d245603051384e051f20",
+      "ratings.csv": "94d536278d1cd02d562cf081074226bc24180429760964c4de7753211db6b10f",
+      "elo_history.csv": "8a771c7a3c947b7b6b63b7413f7dc2f31ca0215854c21fbf51fb3fc78e53b406"
+    }
+  }
+}

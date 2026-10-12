@@ -1,0 +1,34 @@
+entrypoint = "app.py"
+run = [
+  "python3",
+  "-m",
+  "streamlit",
+  "run",
+  "app.py",
+  "--server.address",
+  "0.0.0.0",
+  "--server.headless",
+  "true",
+  "--server.enableCORS",
+  "false",
+  "--server.enableWebsocketCompression",
+  "false",
+]
+
+[deployment]
+build = "python3 -m pip install -r requirements.txt && python3 scripts/check_deployment.py"
+run = [
+  "python3",
+  "-m",
+  "streamlit",
+  "run",
+  "app.py",
+  "--server.address",
+  "0.0.0.0",
+  "--server.headless",
+  "true",
+  "--server.enableCORS",
+  "false",
+  "--server.enableWebsocketCompression",
+  "false",
+]

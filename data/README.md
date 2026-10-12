@@ -1,11 +1,9 @@
-# Data Folder
+# Data
 
-The source dataset comes from Kaggle:
+The public [martj42 international results repository](https://github.com/martj42/international_results) supplies real men’s match results, historic team aliases, and shootout records under CC0.
 
-https://www.kaggle.com/datasets/rauffauzanrambe/fifa-world-cup-2026-player-performance-dataset
+Run `python scripts/download_data.py` from the repository root. It resolves one source commit and downloads `results.csv`, optional `former_names.csv`, and `shootouts.csv` into ignored `data/raw/`, with a revision and checksum manifest. If network access is unavailable, place these files there yourself and use `python scripts/run_all.py --skip-download`.
 
-Expected filename:
+`data/processed/` is also ignored and contains reproducible pre-match features. The app uses only precomputed files in `models/` and `reports/`. Source details and cleaning decisions are recorded in `reports/data_audit.json` and `reports/metrics.json`.
 
-`fifa_world_cup_2026_player_performance-selected-columns-2.csv`
-
-The Kaggle dataset page lists the dataset license as MIT. See `../THIRD_PARTY_NOTICES.md` for attribution and license notes.
+Score outcomes include extra time and exclude penalties. Shootout winners are never used as labels or features. Team names follow the source’s canonical/successor conventions; aliases are only applied in their historical date windows.

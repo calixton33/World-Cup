@@ -1,32 +1,11 @@
-# Third-Party Notices
+# Third-party notices
 
-## FIFA World Cup 2026 Player Performance Dataset
+## International football results
 
-This project uses and derives local model artifacts from the following Kaggle dataset:
+This project derives model artifacts, ratings, and reports from [martj42/international_results](https://github.com/martj42/international_results), maintained by Mart Jürisoo and contributors. The repository publishes its dataset under [CC0 1.0 Universal](https://github.com/martj42/international_results/blob/master/LICENSE). Its source README credits football associations, RSSSF, Wikipedia, and other sources.
 
-- Dataset: FIFA World Cup 2026 Player Performance Dataset
-- Kaggle URL: https://www.kaggle.com/datasets/rauffauzanrambe/fifa-world-cup-2026-player-performance-dataset
-- Kaggle author/uploader: Rauf Fauzan Rambe (`rauffauzanrambe`)
-- License listed on Kaggle: MIT
+The downloaded results, historic name mappings, and shootout files remain uncommitted in `data/raw/`. Exact source revision and SHA-256 fingerprints are retained in `reports/metrics.json`; hosted app artifacts are derived from that source. The fictional player dataset and its derived artifacts are removed from this pipeline.
 
-The app's committed CSV files, saved model artifacts, and generated charts are derived from this dataset for educational/demo use.
+## Python packages
 
-## MIT License Text
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Pandas, NumPy, scikit-learn, Streamlit, Altair, pytest, and their dependencies retain their respective licenses. Their packages provide the applicable license texts.

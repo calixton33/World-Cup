@@ -1,0 +1,60 @@
+{
+  "model": "M1",
+  "data_through": "2026-10-06",
+  "data_as_of": "2026-10-12",
+  "source_sha256": {
+    "results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+    "shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+  },
+  "environment": {
+    "python": "3.12.5",
+    "pandas": "2.3.0",
+    "numpy": "2.3.1",
+    "scikit-learn": "1.7.0",
+    "streamlit": "1.58.0",
+    "altair": "6.2.2"
+  },
+  "training": {
+    "train_matches": 32821,
+    "train_start": "1990-01-12",
+    "train_end": "2026-10-06",
+    "cutoff": "2026-10-07",
+    "fit_matches": 28534,
+    "fit_end": "2022-10-01",
+    "calibration_matches": 4287,
+    "calibration_start": "2022-10-22",
+    "calibration_end": "2026-10-06",
+    "calibration": "sigmoid on chronological holdout",
+    "calibration_years": 4
+  },
+  "columns": [
+    "home_elo",
+    "away_elo",
+    "elo_diff",
+    "home_advantage",
+    "k_tier",
+    "home_ppg_5",
+    "home_gf_pg_5",
+    "home_ga_pg_5",
+    "home_n_5",
+    "home_ppg_10",
+    "home_gf_pg_10",
+    "home_ga_pg_10",
+    "home_n_10",
+    "away_ppg_5",
+    "away_gf_pg_5",
+    "away_ga_pg_5",
+    "away_n_5",
+    "away_ppg_10",
+    "away_gf_pg_10",
+    "away_ga_pg_10",
+    "away_n_10"
+  ],
+  "selected_mean_log_loss": 0.9441292435935621,
+  "artifact_sha256": {
+    "final_model.pkl": "cda009819f1b8050441bf4a10100a267895d50f810c4d245603051384e051f20",
+    "ratings.csv": "94d536278d1cd02d562cf081074226bc24180429760964c4de7753211db6b10f",
+    "elo_history.csv": "8a771c7a3c947b7b6b63b7413f7dc2f31ca0215854c21fbf51fb3fc78e53b406"
+  }
+}

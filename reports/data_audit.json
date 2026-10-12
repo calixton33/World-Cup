@@ -1,0 +1,1608 @@
+{
+  "input_rows": 49945,
+  "completed_matches": 49945,
+  "missing_scores_removed": 0,
+  "future_rows_removed": 0,
+  "exact_duplicates_removed": 0,
+  "team_name_cells_normalised": 0,
+  "former_names_available": true,
+  "first_match": "1872-11-30",
+  "last_match": "2026-10-06",
+  "teams": 337,
+  "as_of": "2026-10-12",
+  "source_sha256": {
+    "results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+    "former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+    "shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+  },
+  "tournament_k": {
+    "ABCS Tournament": 30,
+    "AFC Asian Cup": 50,
+    "AFC Asian Cup qualification": 40,
+    "AFC Challenge Cup": 30,
+    "AFC Challenge Cup qualification": 30,
+    "AFC Solidarity Cup": 30,
+    "AFF Championship": 30,
+    "AFF Championship qualification": 30,
+    "ASEAN Championship": 30,
+    "ASEAN Championship qualification": 30,
+    "Afghanistan Republic Day Festival Cup": 30,
+    "African Cup of Nations": 50,
+    "African Cup of Nations qualification": 40,
+    "African Friendship Games": 30,
+    "Afro-Asian Games": 30,
+    "Al Ain International Cup": 30,
+    "All-African Games": 30,
+    "Am\u00edlcar Cabral Cup": 30,
+    "Arab Cup": 30,
+    "Arab Cup qualification": 30,
+    "Asian Games": 30,
+    "Atlantic Cup": 30,
+    "Atlantic Heritage Cup": 30,
+    "Australia Bicentenary Gold Cup": 30,
+    "Balkan Cup": 30,
+    "Baltic Cup": 30,
+    "Bangabandhu Cup": 30,
+    "Bangladesh President's Gold Cup": 30,
+    "Beijing International Friendship Tournament": 30,
+    "Benedikt Fontana Cup": 30,
+    "Bolivarian Games": 30,
+    "Brazil Independence Cup": 30,
+    "British Home Championship": 30,
+    "CAFA Nations Cup": 30,
+    "CCCF Championship": 50,
+    "CECAFA Cup": 30,
+    "CFU Caribbean Cup": 30,
+    "CFU Caribbean Cup qualification": 30,
+    "CONCACAF Championship": 50,
+    "CONCACAF Championship qualification": 40,
+    "CONCACAF Nations League": 30,
+    "CONCACAF Nations League qualification": 30,
+    "CONCACAF Series": 30,
+    "CONIFA Africa Football Cup": 30,
+    "CONIFA Asia Cup": 30,
+    "CONIFA European Football Cup": 30,
+    "CONIFA South America Football Cup": 30,
+    "CONIFA World Cup qualification": 30,
+    "CONIFA World Football Cup": 30,
+    "CONIFA World Football Cup qualification": 30,
+    "CONMEBOL\u2013UEFA Cup of Champions": 50,
+    "COSAFA Cup": 30,
+    "COSAFA Cup qualification": 30,
+    "CTFA International Tournament": 30,
+    "Canadian Shield": 30,
+    "Central American and Caribbean Games": 30,
+    "Central European International Cup": 30,
+    "China Cup": 30,
+    "Columbus Cup": 30,
+    "ConIFA Challenger Cup": 30,
+    "Confederations Cup": 50,
+    "Copa Am\u00e9rica": 50,
+    "Copa Am\u00e9rica qualification": 40,
+    "Copa Artigas": 30,
+    "Copa Bernardo O'Higgins": 30,
+    "Copa Carlos Dittborn": 30,
+    "Copa Chevallier Boutell": 30,
+    "Copa Confraternidad": 30,
+    "Copa F\u00e9lix Bogado": 30,
+    "Copa Juan Pinto Dur\u00e1n": 30,
+    "Copa Lipton": 30,
+    "Copa Newton": 30,
+    "Copa Oswaldo Cruz": 30,
+    "Copa Paz del Chaco": 30,
+    "Copa Premio Honor Argentino": 30,
+    "Copa Premio Honor Uruguayo": 30,
+    "Copa Ram\u00f3n Castilla": 30,
+    "Copa Rio Branco": 30,
+    "Copa Roca": 30,
+    "Copa del Pac\u00edfico": 30,
+    "Corsica Cup": 30,
+    "Coupe de l'Outre-Mer": 30,
+    "Cup of Ancient Civilizations": 30,
+    "Cyprus International Tournament": 30,
+    "Dakar Tournament": 30,
+    "Diamond Jubilee International Football Tournament": 30,
+    "Dragon Cup": 30,
+    "Dunhill Cup": 30,
+    "Dynasty Cup": 30,
+    "EAFF Championship": 30,
+    "EAFF Championship qualification": 30,
+    "ELF Cup": 30,
+    "East Asian Games": 30,
+    "FAS Tri-Nations Series": 30,
+    "FIFA 75th Anniversary Cup": 30,
+    "FIFA ASEAN Challenge Cup": 30,
+    "FIFA ASEAN Cup": 30,
+    "FIFA Series": 30,
+    "FIFA World Cup": 60,
+    "FIFA World Cup qualification": 40,
+    "FIFI Wild Cup": 30,
+    "Far Eastern Championship Games": 30,
+    "Four Nations Tournament": 30,
+    "Four Nations' Cup": 30,
+    "Friendly": 20,
+    "Fuchs International Tournament": 30,
+    "GaNEFo": 30,
+    "Gold Cup": 50,
+    "Gold Cup qualification": 40,
+    "Great Wall Cup": 30,
+    "Guangzhou International Friendship Tournament": 30,
+    "Gulf Cup": 30,
+    "Hungary Heritage Cup": 30,
+    "Indian Ocean Island Games": 30,
+    "Indonesian Independence Cup": 30,
+    "Inter Games": 30,
+    "Inter-Allied Games": 30,
+    "Intercontinental Cup": 30,
+    "International Friendship Championship": 30,
+    "International Tournament of Peoples, Cultures and Tribes": 30,
+    "Iran International Tournament": 30,
+    "Island Games": 30,
+    "Jakarta Anniversary Tournament": 30,
+    "Joe Robbie Cup": 30,
+    "Jordan International Tournament": 30,
+    "KTFF 50th Anniversary Cup": 30,
+    "King Hassan II Tournament": 30,
+    "King's Cup": 30,
+    "Kirin Challenge Cup": 30,
+    "Kirin Cup": 30,
+    "Korea Cup": 30,
+    "Kuneitra Cup": 30,
+    "LG Cup": 30,
+    "Los Angeles Nations Cup": 30,
+    "Lunar New Year Cup": 30,
+    "MSG Prime Minister's Cup": 30,
+    "Mahinda Rajapaksa Cup": 30,
+    "Malta International Tournament": 30,
+    "Mapinduzi Cup": 30,
+    "Maple Cup": 30,
+    "Marianas Cup": 30,
+    "Marlboro Cup": 30,
+    "Matthews Cup": 30,
+    "Mauritius Four Nations Cup": 30,
+    "Mediterranean Cup": 30,
+    "Melanesia Cup": 30,
+    "Merdeka Tournament": 30,
+    "Merlion Cup": 30,
+    "Miami Cup": 30,
+    "Millennium Cup": 30,
+    "Morocco, Capital of African Football": 30,
+    "Mukuru 4 Nations": 30,
+    "Mundialito": 30,
+    "Muratti Vase": 30,
+    "NAFC Championship": 50,
+    "NAFU Championship": 30,
+    "Nations Cup": 30,
+    "Navruz Cup": 30,
+    "Nehru Cup": 30,
+    "Niamh Challenge Cup": 30,
+    "Nile Basin Tournament": 30,
+    "Nordic Championship": 30,
+    "OSN Cup": 30,
+    "Oceania Nations Cup": 50,
+    "Oceania Nations Cup qualification": 40,
+    "Olympic Games": 30,
+    "Open International Championship": 30,
+    "Outrigger Challenge Cup": 30,
+    "Pacific Games": 30,
+    "Pacific Mini Games": 30,
+    "Palestine Cup": 30,
+    "Palestine International Championship": 30,
+    "Pan American Championship": 50,
+    "Peace Cup": 30,
+    "Philippine Peace Cup": 30,
+    "Phillip Seaga Cup": 30,
+    "President's Gold Cup International Tournament": 30,
+    "Prime Minister's Cup": 30,
+    "Quaid-e-Azam International Tournament": 30,
+    "Real Madrid 75th Anniversary Cup": 30,
+    "Rous Cup": 30,
+    "SAFF Cup": 30,
+    "SKN Football Festival": 30,
+    "Scania 100 Tournament": 30,
+    "Simba Tournament": 30,
+    "Soccer Ashes": 30,
+    "South Asian Games": 30,
+    "South Asian Super Cup": 30,
+    "South Pacific Games": 30,
+    "South Pacific Mini Games": 30,
+    "Southeast Asian Games": 30,
+    "Southeast Asian Peninsular Games": 30,
+    "Supercl\u00e1sico de las Am\u00e9ricas": 30,
+    "TIFOCO Tournament": 30,
+    "Ta\u00e7a das Na\u00e7\u00f5es": 30,
+    "The Other Final": 30,
+    "Three Nations Cup": 30,
+    "Tournament Burkina Faso": 30,
+    "Tournoi de France": 30,
+    "Trans-Tasman Cup": 30,
+    "Tri Nation Tournament": 30,
+    "Tri-Nation Series": 30,
+    "Tri-Nations Cup": 30,
+    "Tri-Nations Series": 30,
+    "Tynwald Hill Tournament": 30,
+    "U.S.A. Bicentennial Cup Tournament": 30,
+    "UDEAC Cup": 30,
+    "UEFA Euro": 50,
+    "UEFA Euro qualification": 40,
+    "UEFA Nations League": 30,
+    "UNCAF Cup": 30,
+    "UNIFFAC Cup": 30,
+    "USA Cup": 30,
+    "Umbro Cup": 30,
+    "United Arab Emirates Friendship Tournament": 30,
+    "Unity Cup": 30,
+    "VFF Cup": 30,
+    "Vietnam Independence Cup": 30,
+    "Viva World Cup": 30,
+    "WAFF Championship": 30,
+    "West African Cup": 30,
+    "Windward Islands Tournament": 30,
+    "World Unity Cup": 30,
+    "Zambian Independence Tournament": 30,
+    "\u00c9vence Copp\u00e9e Trophy": 30
+  },
+  "source": {
+    "repository": "https://github.com/martj42/international_results",
+    "revision": "d5bd6de012c87e2f325de602ae77fe2f9ab61ef3",
+    "downloaded_at_utc": "2026-10-12T00:07:17.599462+00:00",
+    "sha256": {
+      "results.csv": "5dcefd1aa0483979ea8378cef5be448d2005609d39945ea162378561a30a6767",
+      "former_names.csv": "2d57f59a3ac13b24c2fcf208ced5a38710529d122da38929838d0980b002677e",
+      "shootouts.csv": "072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa"
+    }
+  },
+  "source_files_match_manifest": true,
+  "tournament_classifications": [
+    {
+      "tournament": "ABCS Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "AFC Asian Cup",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "AFC Asian Cup qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "AFC Challenge Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "AFC Challenge Cup qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "AFC Solidarity Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "AFF Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "AFF Championship qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "ASEAN Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "ASEAN Championship qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Afghanistan Republic Day Festival Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "African Cup of Nations",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "African Cup of Nations qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "African Friendship Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Afro-Asian Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Al Ain International Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "All-African Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Am\u00edlcar Cabral Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Arab Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Arab Cup qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Asian Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Atlantic Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Atlantic Heritage Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Australia Bicentenary Gold Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Balkan Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Baltic Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Bangabandhu Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Bangladesh President's Gold Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Beijing International Friendship Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Benedikt Fontana Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Bolivarian Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Brazil Independence Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "British Home Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CAFA Nations Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CCCF Championship",
+      "k": 50,
+      "judgement": true,
+      "reason": "Historic continental predecessor or major intercontinental finals"
+    },
+    {
+      "tournament": "CECAFA Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CFU Caribbean Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CFU Caribbean Cup qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONCACAF Championship",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "CONCACAF Championship qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "CONCACAF Nations League",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONCACAF Nations League qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONCACAF Series",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA Africa Football Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA Asia Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA European Football Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA South America Football Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA World Cup qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA World Football Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONIFA World Football Cup qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CONMEBOL\u2013UEFA Cup of Champions",
+      "k": 50,
+      "judgement": true,
+      "reason": "Historic continental predecessor or major intercontinental finals"
+    },
+    {
+      "tournament": "COSAFA Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "COSAFA Cup qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "CTFA International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Canadian Shield",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Central American and Caribbean Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Central European International Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "China Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Columbus Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "ConIFA Challenger Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Confederations Cup",
+      "k": 50,
+      "judgement": true,
+      "reason": "Historic continental predecessor or major intercontinental finals"
+    },
+    {
+      "tournament": "Copa Am\u00e9rica",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Copa Am\u00e9rica qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Copa Artigas",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Bernardo O'Higgins",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Carlos Dittborn",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Chevallier Boutell",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Confraternidad",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa F\u00e9lix Bogado",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Juan Pinto Dur\u00e1n",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Lipton",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Newton",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Oswaldo Cruz",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Paz del Chaco",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Premio Honor Argentino",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Premio Honor Uruguayo",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Ram\u00f3n Castilla",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Rio Branco",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa Roca",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Copa del Pac\u00edfico",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Corsica Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Coupe de l'Outre-Mer",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Cup of Ancient Civilizations",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Cyprus International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Dakar Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Diamond Jubilee International Football Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Dragon Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Dunhill Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Dynasty Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "EAFF Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "EAFF Championship qualification",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "ELF Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "East Asian Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "FAS Tri-Nations Series",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "FIFA 75th Anniversary Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "FIFA ASEAN Challenge Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "FIFA ASEAN Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "FIFA Series",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "FIFA World Cup",
+      "k": 60,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "FIFA World Cup qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "FIFI Wild Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Far Eastern Championship Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Four Nations Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Four Nations' Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Friendly",
+      "k": 20,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Fuchs International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "GaNEFo",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Gold Cup",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Gold Cup qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Great Wall Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Guangzhou International Friendship Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Gulf Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Hungary Heritage Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Indian Ocean Island Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Indonesian Independence Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Inter Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Inter-Allied Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Intercontinental Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "International Friendship Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "International Tournament of Peoples, Cultures and Tribes",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Iran International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Island Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Jakarta Anniversary Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Joe Robbie Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Jordan International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "KTFF 50th Anniversary Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "King Hassan II Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "King's Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Kirin Challenge Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Kirin Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Korea Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Kuneitra Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "LG Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Los Angeles Nations Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Lunar New Year Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "MSG Prime Minister's Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Mahinda Rajapaksa Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Malta International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Mapinduzi Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Maple Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Marianas Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Marlboro Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Matthews Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Mauritius Four Nations Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Mediterranean Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Melanesia Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Merdeka Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Merlion Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Miami Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Millennium Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Morocco, Capital of African Football",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Mukuru 4 Nations",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Mundialito",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Muratti Vase",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "NAFC Championship",
+      "k": 50,
+      "judgement": true,
+      "reason": "Historic continental predecessor or major intercontinental finals"
+    },
+    {
+      "tournament": "NAFU Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Nations Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Navruz Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Nehru Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Niamh Challenge Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Nile Basin Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Nordic Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "OSN Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Oceania Nations Cup",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Oceania Nations Cup qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "Olympic Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Open International Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Outrigger Challenge Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Pacific Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Pacific Mini Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Palestine Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Palestine International Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Pan American Championship",
+      "k": 50,
+      "judgement": true,
+      "reason": "Historic continental predecessor or major intercontinental finals"
+    },
+    {
+      "tournament": "Peace Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Philippine Peace Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Phillip Seaga Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "President's Gold Cup International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Prime Minister's Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Quaid-e-Azam International Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Real Madrid 75th Anniversary Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Rous Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "SAFF Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "SKN Football Festival",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Scania 100 Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Simba Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Soccer Ashes",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "South Asian Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "South Asian Super Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "South Pacific Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "South Pacific Mini Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Southeast Asian Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Southeast Asian Peninsular Games",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Supercl\u00e1sico de las Am\u00e9ricas",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "TIFOCO Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Ta\u00e7a das Na\u00e7\u00f5es",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "The Other Final",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Three Nations Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tournament Burkina Faso",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tournoi de France",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Trans-Tasman Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tri Nation Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tri-Nation Series",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tri-Nations Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tri-Nations Series",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Tynwald Hill Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "U.S.A. Bicentennial Cup Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "UDEAC Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "UEFA Euro",
+      "k": 50,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "UEFA Euro qualification",
+      "k": 40,
+      "judgement": false,
+      "reason": "Named principal finals, qualifiers, or friendlies"
+    },
+    {
+      "tournament": "UEFA Nations League",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "UNCAF Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "UNIFFAC Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "USA Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Umbro Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "United Arab Emirates Friendship Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Unity Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "VFF Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Vietnam Independence Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Viva World Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "WAFF Championship",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "West African Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Windward Islands Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "World Unity Cup",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "Zambian Independence Tournament",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    },
+    {
+      "tournament": "\u00c9vence Copp\u00e9e Trophy",
+      "k": 30,
+      "judgement": true,
+      "reason": "Other named competition; regional qualifiers and Nations Leagues also use this tier"
+    }
+  ]
+}
